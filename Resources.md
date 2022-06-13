@@ -3,8 +3,8 @@
 ~~ Overview
 
 ## Context
-Make 4844 spec executable https://github.com/ethereum/consensus-specs/pull/2901/files#diff-877e1e5724c308a7cf5e82e84db584165d680cbdac04a76b244fa28991b4d69eR51
-proto danksharding links
+- Make 4844 spec executable https://github.com/ethereum/consensus-specs/pull/2901/files#diff-877e1e5724c308a7cf5e82e84db584165d680cbdac04a76b244fa28991b4d69eR51
+- proto danksharding links
 
 ## Spec
 
