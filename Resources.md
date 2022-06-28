@@ -7,7 +7,6 @@
 - proto danksharding links
 
 ## Spec
-
 - https://github.com/ethereum/kzg-ceremony-specs
 
 ## Implementations
@@ -22,7 +21,6 @@
 - https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176
 - https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a
 
-## Breakout Calls
-- KZG-Ceremony Breakout Call #1
-  - https://youtu.be/C_ez35GHPGM
-  - Agenda: https://github.com/ethereum/pm/issues/546
+## Public Calls
+- #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546)
+- #2 [Agenda/Recording](https://github.com/ethereum/pm/issues/558)
