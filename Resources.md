@@ -22,5 +22,5 @@
 - https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a
 
 ## Public Calls
-- #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546)
-- #2 [Agenda/Recording](https://github.com/ethereum/pm/issues/558)
+- #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546) - June 9 2022
+- #2 [Agenda/Recording](https://github.com/ethereum/pm/issues/558) - June 23 2022
