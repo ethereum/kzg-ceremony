@@ -1,9 +1,8 @@
 # KZG Resources
 
-~~ Overview
+[Data availability commitments with distributed reconstruction thanks to 2d KZG commitments](https://www.youtube.com/watch?v=4L30t_6JBAg)
 
 ## Context
-- Make 4844 spec executable https://github.com/ethereum/consensus-specs/pull/2901/files#diff-877e1e5724c308a7cf5e82e84db584165d680cbdac04a76b244fa28991b4d69eR51
 - proto danksharding links
 
 ## Spec
