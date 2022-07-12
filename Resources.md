@@ -23,3 +23,4 @@
 ## Public Calls
 - #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546) - June 9 2022
 - #2 [Agenda/Recording](https://github.com/ethereum/pm/issues/558) - June 23 2022
+- #3 [Agenda/Recording](https://github.com/ethereum/pm/issues/560) - July 7 2022
