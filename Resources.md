@@ -17,8 +17,9 @@
 - Javascript
 
 ## Coordination
-- https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176
-- https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a
+- [Contributor Identification](https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176)
+- [Queue Strategy](https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a)
+- [Draft Participant API](https://www.notion.so/pse-team/Participant-API-a9d82f45a7574da28e4e47bc2ffae1e1)
 
 ## Public Calls
 - #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546) - June 9 2022
