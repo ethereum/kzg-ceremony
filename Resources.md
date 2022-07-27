@@ -1,20 +1,23 @@
-# KZG Resources
+# Summary
 
-[Data availability commitments with distributed reconstruction thanks to 2d KZG commitments](https://www.youtube.com/watch?v=4L30t_6JBAg)
+The KZG Ceremony is an Ethereum project which will provide a cryptographic foundation for scaling initiatives like EIP-4844: Proto-Danksharding. The Ceremony is a coordinated public ritual (aka trusted setup, "Parameter Generation Event" in Zcash) which is expected to have the following characteristics:
 
-## Context
-- proto danksharding links
+- wide ecosystem participation
+- accessible: possible to participate via browser
+- a meaningful narrative in a simple interface 
+- easy to audit transcript
 
-## Spec
-- https://github.com/ethereum/kzg-ceremony-specs
+The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord: [join here](https://discord.gg/bZrptf6Est).
 
-## Implementations
-- Towers of Pau
-    - https://dknopik.de/
-    - https://devpost.com/software/towers-of-pau
-    - https://github.com/dknopik/towers-of-pau
-- Rust
-- Javascript
+## Useful Links
+- [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
+- [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq)
+- [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
+- [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs) 
+- [Primary implementation]() (Rust)
+
+## Other Implementations
+- [Towers of Pau](https://dknopik.de/)
 
 ## Coordination
 - [Contributor Identification](https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176)
@@ -25,3 +28,4 @@
 - #1 [Agenda/Recording](https://github.com/ethereum/pm/issues/546) - June 9 2022
 - #2 [Agenda/Recording](https://github.com/ethereum/pm/issues/558) - June 23 2022
 - #3 [Agenda/Recording](https://github.com/ethereum/pm/issues/560) - July 7 2022
+- #4 [Agenda/Recording](https://github.com/ethereum/pm/issues/569) - July 21 2022
