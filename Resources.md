@@ -1,4 +1,4 @@
-# Summary
+## Summary
 
 The KZG Ceremony is an Ethereum project which will provide a cryptographic foundation for scaling initiatives like EIP-4844: Proto-Danksharding. The Ceremony is a coordinated public ritual (aka trusted setup, "Parameter Generation Event" in Zcash) which is expected to have the following characteristics:
 
