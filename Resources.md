@@ -7,11 +7,16 @@ The KZG Ceremony is an Ethereum project which will provide a cryptographic found
 - a meaningful narrative in a simple interface 
 - easy to audit transcript
 
+From the specs repo:
+
+> The ceremony takes place between participants and the coordinator. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The roll of the coordinator it to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
+
 The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord: [join here](https://discord.gg/bZrptf6Est).
 
 ## Useful Links
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
 - [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq)
+- [KZG polynomial commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
 - [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs) 
 - [Primary implementation]() (Rust)
