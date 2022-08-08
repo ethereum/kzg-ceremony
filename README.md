@@ -20,6 +20,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs) 
 - [Primary implementation](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
+- [Trusted Setup Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5)
 
 ## Other Implementations
 - [Towers of Pau](https://dknopik.de/)
