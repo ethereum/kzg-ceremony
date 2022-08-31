@@ -36,3 +36,4 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - #3 [Agenda/Recording](https://github.com/ethereum/pm/issues/560) - July 7 2022
 - #4 [Agenda/Recording](https://github.com/ethereum/pm/issues/569) - July 21 2022
 - #5 [Agenda/Recording](https://github.com/ethereum/pm/issues/587) - Aug 4 2022
+- #6 [Agenda/Recording](https://github.com/ethereum/pm/issues/593) - Aug 18 2022
