@@ -9,7 +9,7 @@ The KZG Ceremony is an Ethereum project which will provide a cryptographic found
 
 From the specs repo:
 
-> The ceremony takes place between participants and the coordinator. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The roll of the coordinator it to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
+> The ceremony takes place between participants and the sequencer. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The roll of the sequencer it to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
 
 The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord: [join here](https://discord.gg/bZrptf6Est).
 
