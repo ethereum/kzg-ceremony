@@ -1,17 +1,17 @@
 ## Summary
 
-The KZG Ceremony is an Ethereum project which will provide a cryptographic foundation for scaling initiatives like EIP-4844: Proto-Danksharding. The Ceremony is a coordinated public ritual (aka trusted setup, "Parameter Generation Event" in Zcash) which is expected to have the following characteristics:
-
-- wide ecosystem participation
-- accessible: possible to participate via browser
-- a meaningful narrative in a simple interface 
-- easy to audit transcript
-
-From the specs repo:
+TThe KZG Ceremony is a coordinated public ritual (aka trusted setup, "Parameter Generation Event" in Zcash) which will provide a cryptographic foundation for Ethereum scaling initiatives. From the specs repo:
 
 > The ceremony takes place between participants and the sequencer. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The roll of the sequencer it to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
 
-The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord: [join here](https://discord.gg/bZrptf6Est).
+The ceremony is designed to have the following characteristics:
+
+- wide ecosystem participation
+- accessible via browser
+- a meaningful narrative in a simple interface 
+- easy to audit transcript
+
+The best place to follow along is the KZG Ceremony channel in the [Ethereum R&D Discord](https://discord.gg/bZrptf6Est) or the bridged [telegram channel](https://t.me/+OvdstAcYZ09mMWMx).
 
 ## Useful Links
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
@@ -19,10 +19,10 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [KZG polynomial commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
 - [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs) 
-- [Primary implementation](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Trusted Setup Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5)
 
-## Other Implementations
+## Implementations
+- [Primary implementation](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Towers of Pau](https://dknopik.de/)
 
 ## Latest work on other Ceremony Infra
