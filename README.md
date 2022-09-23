@@ -11,7 +11,7 @@ The ceremony is designed to have the following characteristics:
 - a meaningful narrative in a simple interface 
 - easy to audit transcript
 
-The best place to follow along is the KZG Ceremony channel in the [Ethereum R&D Discord](https://discord.gg/bZrptf6Est) or the bridged [telegram channel](https://t.me/+OvdstAcYZ09mMWMx).
+The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord or the bridged telegram channel - DM one of the contributors to be added to either.
 
 ## Context
 - [How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
