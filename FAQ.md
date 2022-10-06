@@ -9,7 +9,13 @@ Their Applications"](https://www.iacr.org/archive/asiacrypt2010/6477178/6477178.
 
 ### What happens during a Ceremony?
 
-Learn more about EIP-4844 here. From the [Cryptography Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5):
+1. A Summoner runs a computation using three random inputs (aka secrets) they provide. Three different kinds of secret are required in this Ceremony: text, cursor movements, and browser generated.
+2. The output of that computation is then passed to the Sequencer - a coordinating server which orchestrates transfers between participants.
+3. The Sequencer passes the computation from step two to the next summoner, who is waiting to start. This participant computes an output using their secret inputs, and combines it with the work from Summoner 1. At this point the cycle starts again.
+
+While it’s important that summoners discard the random secrets they use, the Ceremony only requires one honest participant to do so. As long as one person does this, observers can be sure that the final output can never be fully reverse engineered or corrupted.
+
+Here's another framing from the [Cryptography Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5):
 
 > For EIP-4844, Ethereum needs four different Structured Reference Strings (SRS) each of different sizes. Each SRS has a secret associated with it. For security, the SRS’s must be computed in such a way that no single person knows the secret associated with them. The solution is to have multiple people contribute to the secret. If all of these people collude, then they can recover the secret. If even one person does not collude, then the secret is unrecoverable. The process of multiple people contributing to the secret is known as a ceremony.
 
