@@ -17,7 +17,7 @@ Learn more about EIP-4844 here. From the [Cryptography Rationale](https://hackmd
 
 Using anything other than KZG (eg. IPA or SHA256) would make the sharding roadmap much more difficult. Learn more from Vitalik's [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq#Couldn%E2%80%99t-we-use-some-other-commitment-scheme-without-a-trusted-setup).
 
-### What is the Sequencer and its responsibilities?
+### What is the Sequencer and what does it do?
 
 The Sequencer is a server hosted by the Ethereum Foundation which coordinates contributions. It keeps track of who is trying to contribute, serves them the necessary data to download, and takes each contribution.
 
