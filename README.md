@@ -24,7 +24,8 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 ## KZG Ceremony
 
 - [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
-- [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs) 
+- [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs)
+- [KZG ceremony sequencer implementation](https://github.com/ethereum/kzg-ceremony-sequencer) (Rust)
 - [SECBIT Spec + Implementation Audit](https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf)
 
 ## Client Implementations
