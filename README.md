@@ -28,7 +28,10 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [SECBIT Spec + Implementation Audit](https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf)
 
 ## Client Implementations
+
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
+- [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
+  - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
 
 ## Other Documentation
 
