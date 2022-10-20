@@ -1,22 +1,20 @@
 ### How do I contribute randomness to the Ceremony?
 
-The Ethereum Foundation is hosting an interface at ceremony.ethereum.org during the Public contribution period from X date to Y date. If you'd like an alternative to the hosted interface, you are welcome to contribute via a [CLI](link). After this public contribution period, we will accept special contributions from bespoke [implementations]() or unique randomness generation. Funding is available for both of these, more information will be shared in the coming weeks.
+The Ethereum Foundation is hosting an interface at [ceremony.ethereum.org](https://ceremony.ethereum.org/) during the public contribution period from X date to Y date. If you'd like an alternative to the hosted interface, you are welcome to contribute via a [CLI](https://github.com/crate-crypto/kzg-ceremony-cli.git). After this public contribution period, we will accept special contributions from bespoke [implementations](https://github.com/ethereum/kzg-ceremony#client-implementations) or unique randomness generation. Funding is available for both of these, more information will be shared in the coming weeks.
 
 ### What does KZG stand for?
 
-KZG comes from Kate, Zaverucha, and Goldberg. These are the author surnames from the paper ["Constant-Size Commitments to Polynomials and
-Their Applications"](https://www.iacr.org/archive/asiacrypt2010/6477178/6477178.pdf), which outlines the underlying cryptographic mechanism that the Ethereum ceremony plans to utilize.
+KZG comes from Kate, Zaverucha, and Goldberg. These are the author surnames from the paper ["Constant-Size Commitments to Polynomials and Their Applications"](https://www.iacr.org/archive/asiacrypt2010/6477178/6477178.pdf), which outlines the underlying cryptographic mechanism that the Ethereum ceremony plans to utilize.
 
 ### What happens during a Ceremony?
 
-1. A Summoner runs a computation using three random inputs (aka secrets) they provide. Three different kinds of secret are required in this Ceremony: text, cursor movements, and browser generated.
+1. A Summoner runs a computation using three random inputs (aka secrets) they provide. Three different kinds of secrets are required in this Ceremony: text, cursor movements, and browser generated.
 2. The output of that computation is then passed to the Sequencer - a coordinating server which orchestrates transfers between participants.
 3. The Sequencer passes the computation from step two to the next summoner, who is waiting to start. This participant computes an output using their secret inputs, and combines it with the work from Summoner 1. At this point the cycle starts again.
 
 While it’s important that summoners discard the random secrets they use, the Ceremony only requires one honest participant to do so. As long as one person does this, observers can be sure that the final output can never be fully reverse engineered or corrupted.
 
 Here's another framing from the [Cryptography Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5):
-
 > For EIP-4844, Ethereum needs four different Structured Reference Strings (SRS) each of different sizes. Each SRS has a secret associated with it. For security, the SRS’s must be computed in such a way that no single person knows the secret associated with them. The solution is to have multiple people contribute to the secret. If all of these people collude, then they can recover the secret. If even one person does not collude, then the secret is unrecoverable. The process of multiple people contributing to the secret is known as a ceremony.
 
 ### Couldn’t another commitment scheme without a "trusted setup" be used?
