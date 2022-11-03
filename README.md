@@ -30,7 +30,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 
 ## Client Implementations
 
-- [KZG sequencer crypto library](https://github.com/ethereum/kzg-ceremony-sequencer/tree/master/crypto) (Rust)
+- [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot) (Rust)
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
   - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
