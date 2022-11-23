@@ -30,9 +30,9 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 
 ## Client Implementations
 
+- [zkparty/trusted-setup-frontend](https://github.com/zkparty/trusted-setup-frontend)
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
-- [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
-  - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
+- [kzg-ceremony-participant (Worldcoin)](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
 
 ## Other Documentation
 
