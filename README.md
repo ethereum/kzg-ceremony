@@ -15,7 +15,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 
 ## Context
 
-- [KZG Ceremony Website FAQ](https://github.com/ethereum/kzg-ceremony/blob/main/WebsiteFAQ.md)
+- [KZG Ceremony FAQ](https://github.com/ethereum/kzg-ceremony/blob/main/FAQ.md)
 - [How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
 - [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq)

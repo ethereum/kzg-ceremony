@@ -1,4 +1,4 @@
-# KZG Ceremony (website) FAQs
+# KZG Ceremony FAQs
 
 ### What is EIP-4844, a.k.a. Proto-Danksharding, and how does it relate to scaling Ethereum
 
