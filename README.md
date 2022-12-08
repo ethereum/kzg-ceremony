@@ -38,7 +38,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 ## Other Documentation
 
 - [Trusted Setup Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5)
-- [Towers of Pau](https://dknopik.de/)
+- [Powers of Pau](https://dknopik.de/)
 - [Contributor Identification](https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176)
 - [Queue Strategy](https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a)
 - [Draft Participant API](https://www.notion.so/pse-team/Participant-API-a9d82f45a7574da28e4e47bc2ffae1e1)
