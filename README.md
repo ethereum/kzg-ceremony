@@ -2,7 +2,7 @@
 
 The KZG Ceremony is a coordinated public ritual which will provide a cryptographic foundation for Ethereum scaling initiatives. From the specs repo:
 
-> The ceremony takes place between participants and the sequencer. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The roll of the sequencer it to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
+> The ceremony takes place between participants and the sequencer. Participants are the entities that contribute their secret randomness to the final output 𝜏 s. The role of the sequencer is to act as the common point of interaction for all participants as well as verifying participants' contribution as the ceremony progresses.
 
 The ceremony is designed to have the following characteristics:
 
