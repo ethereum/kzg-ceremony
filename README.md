@@ -27,6 +27,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs)
 - [KZG ceremony sequencer implementation](https://github.com/ethereum/kzg-ceremony-sequencer) (Rust)
 - [SECBIT Spec + Implementation Audit](https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf)
+- [Sigma Prime Sequencer Audit](https://github.com/ethereum/kzg-ceremony/blob/main/Sigma_Prime_Ethereum_Foundation_KZG_Ceremony_Security_Assessment.pdf)
 
 ## Client Implementations
 
@@ -34,6 +35,11 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
   - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
+
+## IPFS Hosted Versions
+
+- [latest version](): references the latest version of the interface, which departs from the audited version in minor ways
+- [Audit version](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above
 
 ## Other Documentation
 
