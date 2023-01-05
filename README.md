@@ -30,7 +30,10 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Sigma Prime Sequencer Audit](https://github.com/ethereum/kzg-ceremony/blob/main/Sigma_Prime_Ethereum_Foundation_KZG_Ceremony_Security_Assessment.pdf)
 
 ## Client Implementations
-
+- [KZG Ceremony Client](https://github.com/jsign/go-kzg-ceremony-client) (Go)
+  - Allows verifying the powers of tau calculation from the currently provided transcript from the verifier
+  - Apart from using CSRNG for secrets entropy, it supports two opt-in external sources of entropy: the drand network, and an arbitrary URL provided by the user
+- [Towers of Pau](https://github.com/dknopik/towers-of-pau)
 - [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot) (Rust)
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
@@ -44,7 +47,6 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 ## Other Documentation
 
 - [Trusted Setup Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5)
-- [Towers of Pau](https://dknopik.de/)
 - [Contributor Identification](https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176)
 - [Queue Strategy](https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a)
 - [Draft Participant API](https://www.notion.so/pse-team/Participant-API-a9d82f45a7574da28e4e47bc2ffae1e1)
