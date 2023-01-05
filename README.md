@@ -33,7 +33,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [KZG Ceremony Client](https://github.com/jsign/go-kzg-ceremony-client) (Go)
   - Allows verifying the powers of tau calculation from the currently provided transcript from the verifier
   - Apart from using CSRNG for secrets entropy, it supports two opt-in external sources of entropy: the drand network, and an arbitrary URL provided by the user
-- [Towers of Pau](https://github.com/dknopik/towers-of-pau) (Go)
+- [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client) (Go)
 - [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot) (Rust)
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
