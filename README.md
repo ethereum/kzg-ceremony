@@ -38,8 +38,8 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 
 ## IPFS Hosted Versions
 
-- [latest version](): references the latest version of the interface, which departs from the audited version in minor ways
-- [Audit version](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above
+- [latest version - link to be added](): references the latest version of the interface, which departs from the audited version in minor ways
+- [Audit version - link to be added](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above
 
 ## Other Documentation
 
