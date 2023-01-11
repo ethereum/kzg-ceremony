@@ -7,7 +7,7 @@ The KZG Ceremony is a coordinated public ritual which will provide a cryptograph
 The ceremony is designed to have the following characteristics:
 
 - wide ecosystem participation
-- accessible via browser
+- browser accessible
 - a meaningful narrative in a simple interface
 - easy to audit transcript
 
