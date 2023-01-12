@@ -13,7 +13,7 @@ The ceremony is designed to have the following characteristics:
 
 The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord or the bridged telegram channel - DM one of the contributors to be added to either.
 
-## Context
+## Resources
 - [KZG Ceremony FAQ](https://github.com/ethereum/kzg-ceremony/blob/main/FAQ.md)
 - [How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
@@ -21,6 +21,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [KZG polynomial commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
 - [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs)
+- [Frontend Repo](https://github.com/zkparty/trusted-setup-frontend)
 
 ## Audits
 - [SECBIT Spec + Implementation Audit](https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf) - Aug 2022
@@ -41,12 +42,6 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [latest version - link to be added](): references the latest version of the interface, which departs from the audited version in minor ways
 - [Audited version - link to be added](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above
   - [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
-
-## Other Documentation
-- [Trusted Setup Rationale](https://hackmd.io/@6iQDuIePQjyYBqDChYw_jg/SJ-08AoT5)
-- [Contributor Identification](https://pse-team.notion.site/Contributor-Identification-bd2824138a5f446785fdd70c60684176)
-- [Queue Strategy](https://pse-team.notion.site/Queue-Strategy-c75120ae0c584e6f8db7738c9aaf963a)
-- [Draft Participant API](https://www.notion.so/pse-team/Participant-API-a9d82f45a7574da28e4e47bc2ffae1e1)
 
 ## Public Calls
 | Call #  |              Link |  Date |
