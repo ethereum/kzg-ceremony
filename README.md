@@ -19,7 +19,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844)
 - [Proto-Danksharding FAQ](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq)
 - [KZG polynomial commitments](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
-- [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines) (subject to change)
+- [KZG Ceremony Timeline](https://notes.ethereum.org/@CarlBeek/kzg_ceremony_timelines)
 - [Spec Repo](https://github.com/ethereum/kzg-ceremony-specs)
 - [Frontend Repo](https://github.com/zkparty/trusted-setup-frontend)
 
