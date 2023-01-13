@@ -38,10 +38,11 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
   - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
 
-## IPFS Hosted Versions
-- [latest version - link to be added](): references the latest version of the interface, which departs from the audited version in minor ways
-- [Audited version - link to be added](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above
-  - [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
+## Interfaces
+- [Doge Edition](https://www.dogekzg.com/)
+- IPFS Hosted
+  - [latest version - link to be added](): references the latest version of the interface, which departs from the audited version in minor ways
+  - [Audited version - link to be added](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
 
 ## Public Calls
 | Call #  |              Link |  Date |
