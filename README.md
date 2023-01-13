@@ -25,7 +25,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 
 ## Audits
 - [SECBIT Spec + Implementation Audit](https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf) - Aug 2022
-- [Sigma Prime Sequencer Audit](https://github.com/ethereum/kzg-ceremony/blob/main/Sigma_Prime_Ethereum_Foundation_KZG_Ceremony_Security_Assessment.pdf) - Nov 2022
+- [Sigma Prime Sequencer Audit](https://github.com/ethereum/kzg-ceremony/blob/main/Sigma_Prime_Ethereum_Foundation_KZG_Ceremony_Security_Assessment_v3.pdf) - Jan 2023
 
 ## Client Implementations
 - [KZG ceremony sequencer implementation](https://github.com/ethereum/kzg-ceremony-sequencer) (Rust)
