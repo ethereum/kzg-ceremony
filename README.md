@@ -41,8 +41,8 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 ## Interfaces
 - [Doge Edition](https://www.dogekzg.com/) 🐶
 - IPFS Hosted
-  - [latest version - link to be added](): references the latest version of the interface, which departs from the audited version in minor ways
-  - [Audited version - link to be added](): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
+  - [latest version](latest.kzgceremony.eth.limo): references the latest version of the interface, which departs from the audited version in minor ways
+  - [Audited version](audit.kzgceremony.eth.limo): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
 
 ## Media
 - [Peep an EIP (link to be added)]() - Pooja Ranjan, Carl Beekhuizen - Jan 2023
