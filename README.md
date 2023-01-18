@@ -45,6 +45,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
   - [Audited version](audit.kzgceremony.eth.limo): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
 
 ## Media
+- [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) - Bankless - Jan 2023
 - [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) - Pooja Ranjan, Carl Beekhuizen - Jan 2023
 - [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) - Epicenter - Jan 2023
 - [Building the KZG Ceremony](https://www.youtube.com/watch?v=Z2jR75njZKc) - Nico Serrano, Geoff Lamperd - Dec 2022
