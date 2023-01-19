@@ -28,15 +28,20 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Sigma Prime Sequencer Audit](https://github.com/ethereum/kzg-ceremony/blob/main/Sigma_Prime_Ethereum_Foundation_KZG_Ceremony_Security_Assessment_v3.pdf) - Jan 2023
 
 ## Client Implementations
-- [KZG ceremony sequencer implementation](https://github.com/ethereum/kzg-ceremony-sequencer) (Rust)
-- [KZG Ceremony Client](https://github.com/jsign/go-kzg-ceremony-client) (Go)
+There are a number of independent implementations interested Ceremony participants can try to run locally, will have a variety of different features. (no guarantees on the quality or completeness!)
+
+### Go
+- [eth-KZG-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) - Arnaucube
+- [KZG Ceremony Client](https://github.com/jsign/go-kzg-ceremony-client) - Ignacio Hagopian
   - Allows verifying the powers of tau calculation from the currently provided transcript from the verifier
   - Apart from using CSRNG for secrets entropy, it supports two opt-in external sources of entropy: the drand network, and an arbitrary URL provided by the user
-- [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client) (Go)
-- [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot) (Rust)
-- [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
+- [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client) - Daniel Knopnik, Marius van der Widjen
+
+### Rust
+- [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot)
+- [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
-  - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
+  - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant)
 
 ## Interfaces
 - [Doge Edition](https://www.dogekzg.com/) 🐶
