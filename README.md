@@ -37,6 +37,7 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 - [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau) (Rust)
 - [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
   - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant) (Rust)
+- [eth-kzg-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) (Go)
 
 ## Interfaces
 - [Doge Edition](https://www.dogekzg.com/) 🐶
