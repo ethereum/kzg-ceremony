@@ -30,24 +30,35 @@ The best place to follow along is the KZG Ceremony channel in the Ethereum R&D D
 ## Client Implementations
 There are a number of independent implementations interested Ceremony participants can try to run locally, will have a variety of different features. (no guarantees on the quality or completeness!)
 
-### Go
-- [eth-KZG-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) - Arnaucube
-- [KZG Ceremony Client](https://github.com/jsign/go-kzg-ceremony-client) - Ignacio Hagopian
-  - Allows verifying the powers of tau calculation from the currently provided transcript from the verifier
-  - Apart from using CSRNG for secrets entropy, it supports two opt-in external sources of entropy: the drand network, and an arbitrary URL provided by the user
-- [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client) - Daniel Knopnik, Marius van der Widjen
+### CLI Interfaces
 
-### Rust
-- [KZG sequencer crypto wrapper](https://github.com/zkparty/wrapper-small-pot)
-- [Small powers of Tau](https://github.com/crate-crypto/small-powers-of-tau)
-- [Worldcoin](https://github.com/worldcoin/kzg-ceremony-client) (client - WIP)
-  - [WASM contribution code](https://github.com/worldcoin/kzg-ceremony-participant)
+| Implementation         | BLS Library                                        | Language | License    | Author                                                                 | Link                                                        | Notes                                                                                                                                                                                                              |
+| ---------------------- | -------------------------------------------------- | -------- | ---------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Chotto                 | blst ([jblst](https://github.com/ConsenSys/jblst)) | Java     | Apache 2.0 | Stefan Bratanov (@StefanBratanov)                                      | https://github.com/StefanBratanov/chotto/                   |                                                                                                                                                                                                                    |
+| go-kzg-ceremony-client | gnark-crypto                                       | Go       | MIT        | Ignacio Hagopian (@jsign)                                              | https://github.com/jsign/go-kzg-ceremony-client             | Features: transcript verification, using additional external sources of entropy: (drand network, an arbitrary URL provided by the user). Note: double signing not supported due to lack of hash-to-curve in gnark. |
+| eth-KZG-ceremony-alt   | kilic                                              | Go       | GPL-3.0    | Arnaucube (@arnaucube)                                                 | https://github.com/arnaucube/eth-kzg-ceremony-alt           |                                                                                                                                                                                                                    |
+| Towers of Pau          | blst                                               | Go       | MIT        | Daniel Knopnik (@dknopik), Marius van der Widjen (@MariusVanDerWijden) | https://github.com/dknopik/towers-of-pau/tree/proper-client | May run into issues due to API changes.                                                                                                                                                                            |
 
-## Interfaces
-- [Doge Edition](https://www.dogekzg.com/) 🐶
-- IPFS Hosted
-  - [latest version](latest.kzgceremony.eth.limo): references the latest version of the interface, which departs from the audited version in minor ways
-  - [Audited version](audit.kzgceremony.eth.limo): the interface which Sigma Prime audited in November 2022. May have bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md)
+### Browser Interfaces
+
+| Interface                       | BLS Library | License | Author                                                                           | URL                            | IPFS                                                                                 | Repository                                                                                      | Notes                                                                                                                                                                                                                          |
+| ------------------------------- | ----------- | ------- | -------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ZKParty Frontend                | Arkworks    |         | [Several](https://github.com/zkparty/trusted-setup-frontend/graphs/contributors) | https://ceremony.ethereum.org/ | https://latest.kzgceremony.eth.limo/                                                 | https://github.com/zkparty/trusted-setup-frontend                                               | References the latest version of the interface, which departs from the audited version in minor ways                                                                                                                           |
+| ZKParty Frontend (Audit Commit) | Arkworks    |         | [Several](https://github.com/zkparty/trusted-setup-frontend/graphs/contributors) |                                | https://audit.kzgceremony.eth.limo/ (QmevfvaP3nR5iMncWKa55B2f5mUgTAw9oDjFovD3XNrJTV) | https://github.com/zkparty/trusted-setup-frontend/tree/40d421f16aafd93273f636e46dc8e0a39e4690b7 | The exact interface which Sigma Prime audited in November 2022. May have minor bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md) |
+| Doge KZG                        | gnark       | MIT     | Andrew Davis (@Savid)                                                            | https://www.dogekzg.com/       | QmRs83zAU1hEnPHeeSKBUa58kLiWiwkjG3rJCmB8ViTcSU                                       | https://github.com/Savid/dogekzg                                                                | 🐶                                                                                                                                                                                                                              |
+
+
+### BLS Libraries
+
+| Library      | Language       | License         | Audit                                                                                                                                                                                                                 | Repository                                |
+| ------------ | -------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| blst         | C & assembly   | Apache 2.0      | [Audit Report](https://research.nccgroup.com/wp-content/uploads/2021/01/NCC_Group_EthereumFoundation_ETHF002_Report_2021-01-20_v1.0.pdf), [[WIP] Formal Verification](https://github.com/GaloisInc/BLST-Verification) | https://github.com/supranational/blst     |
+| Arkworks     | Rust           | Apache 2.0, MIT |                                                                                                                                                                                                                       | https://github.com/arkworks-rs/curves     |
+| gnark-crypto | Go & assembly  | Apache 2.0      | [Audit Report](https://github.com/ConsenSys/gnark-crypto/blob/master/audit_oct2022.pdf)                                                                                                                               | https://github.com/ConsenSys/gnark-crypto |
+| kilic        | Go             | Apache 2.0      |                                                                                                                                                                                                                       | https://github.com/kilic/bls12-381        |
+| Herumi BLS   | C++ & assembly |                 | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf)                                                                                    | https://github.com/herumi/bls             |
+| py_ecc       | Python         | MIT             |                                                                                                                                                                                                                       | https://github.com/ethereum/py_ecc/       |
+
 
 ## Media
 - [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) - Bankless - Jan 2023
@@ -57,14 +68,14 @@ There are a number of independent implementations interested Ceremony participan
 - [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups](https://archive.devcon.org/archive/watch/6/the-kzg-ceremony-or-how-i-learnt-to-stop-worrying-and-love-trusted-setups/?tab=YouTube) - Carl Beekhuizen - Oct 2022
 
 ## Public Calls
-| Call #  |              Link |  Date |
-| ---: | ---:        |        ---: |
-| 1 | [Agenda/Recording](https://github.com/ethereum/pm/issues/546) | June 9 2022 |
-| 2 | [Agenda/Recording](https://github.com/ethereum/pm/issues/558) | June 23 2022|
-| 3 | [Agenda/Recording](https://github.com/ethereum/pm/issues/560) | July 7 2022|
-| 4 | [Agenda/Recording](https://github.com/ethereum/pm/issues/569) | July 21 2022|
-| 5 | [Agenda/Recording](https://github.com/ethereum/pm/issues/587) | Aug 4 2022|
-| 6 | [Agenda/Recording](https://github.com/ethereum/pm/issues/593) | Aug 18 2022|
-| 7 | [Agenda/Recording](https://github.com/ethereum/pm/issues/613) | Sept 1 2022|
-| 8 | [Agenda/Recording](https://github.com/ethereum/pm/issues/623) | Sept 15 2022|
-| 9 | [Agenda/Recording](https://github.com/ethereum/pm/issues/636) | Sept 29 2022|
+| Call # |                                                          Link |         Date |
+| -----: | ------------------------------------------------------------: | -----------: |
+|      1 | [Agenda/Recording](https://github.com/ethereum/pm/issues/546) |  June 9 2022 |
+|      2 | [Agenda/Recording](https://github.com/ethereum/pm/issues/558) | June 23 2022 |
+|      3 | [Agenda/Recording](https://github.com/ethereum/pm/issues/560) |  July 7 2022 |
+|      4 | [Agenda/Recording](https://github.com/ethereum/pm/issues/569) | July 21 2022 |
+|      5 | [Agenda/Recording](https://github.com/ethereum/pm/issues/587) |   Aug 4 2022 |
+|      6 | [Agenda/Recording](https://github.com/ethereum/pm/issues/593) |  Aug 18 2022 |
+|      7 | [Agenda/Recording](https://github.com/ethereum/pm/issues/613) |  Sept 1 2022 |
+|      8 | [Agenda/Recording](https://github.com/ethereum/pm/issues/623) | Sept 15 2022 |
+|      9 | [Agenda/Recording](https://github.com/ethereum/pm/issues/636) | Sept 29 2022 |
