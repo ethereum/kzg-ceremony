@@ -63,11 +63,14 @@ There are a number of independent implementations interested Ceremony participan
 
 
 ## Media
-- [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) - Bankless - Jan 2023
-- [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) - Pooja Ranjan, Carl Beekhuizen - Jan 2023
-- [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) - Epicenter - Jan 2023
-- [Building the KZG Ceremony](https://www.youtube.com/watch?v=Z2jR75njZKc) - Nico Serrano, Geoff Lamperd - Dec 2022
-- [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups](https://archive.devcon.org/archive/watch/6/the-kzg-ceremony-or-how-i-learnt-to-stop-worrying-and-love-trusted-setups/?tab=YouTube) - Carl Beekhuizen - Oct 2022
+
+| Title | Venue / Participants | Date |
+| :- | :-- | :-- |
+| [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) | Bankless | Jan 2023 | 
+| [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) | Pooja Ranjan, Carl Beekhuizen | Jan 2023 | 
+| [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) | Epicenter | Jan 2023 | 
+| [Building the KZG Ceremony](https://www.youtube.com/watch?v=Z2jR75njZKc) | Nico Serrano, Geoff Lamperd | Dec 2022 | 
+| [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups](https://archive.devcon.org/archive/watch/6/the-kzg-ceremony-or-how-i-learnt-to-stop-worrying-and-love-trusted-setups/?tab=YouTube) | Carl Beekhuizen | Oct 2022 | 
 
 ## Public Calls
 | Call # |Link | Date |
