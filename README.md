@@ -33,7 +33,7 @@ There are a number of independent implementations interested Ceremony participan
 ### CLI Interfaces
 
 | Implementation | BLS Library | Language | License| Author| Notes |
-| - | - | - | - | - | - |
+| :- | :- | :- | :- | :- | :- |
 | [Chotto](https://github.com/StefanBratanov/chotto/) | blst ([jblst](https://github.com/ConsenSys/jblst)) | Java | Apache 2.0 | Stefan Bratanov (@StefanBratanov) ||
 | [go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client) | gnark-crypto| Go | MIT| Ignacio Hagopian (@jsign)| Features: transcript verification, using additional external sources of entropy, eg. drand network, an arbitrary URL provided by the user. Note: double signing not supported due to lack of hash-to-curve in gnark. |
 | [eth-KZG-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) | kilic | Go | GPL-3.0| Arnaucube (@arnaucube)| 
@@ -42,7 +42,7 @@ There are a number of independent implementations interested Ceremony participan
 ### Browser Interfaces
 
 | Interface| BLS Library | License | Author | IPFS| Repository| Notes|
-| - | - | - | - | - | - |- |
+| :- | :- | :- | :- | :- | :- | :- |
 | [ZKParty Frontend](https://ceremony.ethereum.org/) | Arkworks|| [Several](https://github.com/zkparty/trusted-setup-frontend/graphs/contributors) | [latest.kzgceremony.eth](https://latest.kzgceremony.eth.limo/)| [trusted-setup-frontend](https://github.com/zkparty/trusted-setup-frontend)| References the latest version of the interface, which departs from the audited version in minor ways |
 | ZKParty Frontend (Audit Commit) | Arkworks| | [Several](https://github.com/zkparty/trusted-setup-frontend/graphs/contributors) | [1] [audit.kzgceremony.eth](https://audit.kzgceremony.eth.limo/) | [trusted-setup-frontend](https://github.com/zkparty/trusted-setup-frontend/tree/40d421f16aafd93273f636e46dc8e0a39e4690b7) | The exact interface which Sigma Prime audited in November 2022. May have minor bugs or differences from the latest version above. [docker instructions](https://github.com/zkparty/trusted-setup-frontend/blob/main/README.md) |
 | [Doge KZG](https://www.dogekzg.com/)| gnark | MIT | Andrew Davis (@Savid) | [2] | [dogekzg](https://github.com/Savid/dogekzg)| 🐶|
@@ -52,25 +52,25 @@ There are a number of independent implementations interested Ceremony participan
 
 ### BLS Libraries
 
-| Library| Language | License | Audit | Repository|
-| - | - | - | - | - |
-| blst | C & assembly | Apache 2.0| [Audit Report](https://research.nccgroup.com/wp-content/uploads/2021/01/NCC_Group_EthereumFoundation_ETHF002_Report_2021-01-20_v1.0.pdf), [[WIP] Formal Verification](https://github.com/GaloisInc/BLST-Verification) | https://github.com/supranational/blst |
-| Arkworks | Rust | Apache 2.0, MIT | | https://github.com/arkworks-rs/curves |
-| gnark-crypto | Go & assembly| Apache 2.0| [Audit Report](https://github.com/ConsenSys/gnark-crypto/blob/master/audit_oct2022.pdf) | https://github.com/ConsenSys/gnark-crypto |
-| kilic| Go | Apache 2.0| | https://github.com/kilic/bls12-381|
-| Herumi BLS | C++ & assembly | | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf)| https://github.com/herumi/bls |
-| py_ecc | Python | MIT | | https://github.com/ethereum/py_ecc/ |
+| Library| Language | License | Audit |
+| :- | :- | :- | :- |
+| [blst](https://github.com/supranational/blst) | C & assembly | Apache 2.0| [Audit Report](https://research.nccgroup.com/wp-content/uploads/2021/01/NCC_Group_EthereumFoundation_ETHF002_Report_2021-01-20_v1.0.pdf), [[WIP] Formal Verification](https://github.com/GaloisInc/BLST-Verification)  |
+| [Arkworks](https://github.com/arkworks-rs/curves) | Rust | Apache 2.0, MIT | | 
+| [gnark-crypto](https://github.com/ConsenSys/gnark-crypto) | Go & assembly| Apache 2.0| [Audit Report](https://github.com/ConsenSys/gnark-crypto/blob/master/audit_oct2022.pdf) |
+| [kilic](https://github.com/kilic/bls12-381) | Go | Apache 2.0| |
+| [Herumi BLS](https://github.com/herumi/bls) | C++ & assembly | [modified BSD](http://opensource.org/licenses/BSD-3-Clause) | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf) |
+| [py_ecc](https://github.com/ethereum/py_ecc/) | Python | MIT | |
 
 
 ## Media
 
-| Title | Venue / Participants | Date |
-| :- | :-- | :-- |
-| [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) | Bankless | Jan 2023 | 
-| [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) | Pooja Ranjan, Carl Beekhuizen | Jan 2023 | 
-| [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) | Epicenter | Jan 2023 | 
-| [Building the KZG Ceremony](https://www.youtube.com/watch?v=Z2jR75njZKc) | Nico Serrano, Geoff Lamperd | Dec 2022 | 
-| [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups](https://archive.devcon.org/archive/watch/6/the-kzg-ceremony-or-how-i-learnt-to-stop-worrying-and-love-trusted-setups/?tab=YouTube) | Carl Beekhuizen | Oct 2022 | 
+| Title | Venue | Participants | Release Date |
+| :- | :-- | :--| --: |
+| [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) | Bankless | David Hoffman, Trent Van Epps, Carl Beekhuizen | Jan 2023 | 
+| [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) | EthCatHerders | Pooja Ranjan, Carl Beekhuizen | Jan 2023 | 
+| [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) | Epicenter | Friederike Ernst, Trent Van Epps, Carl Beekhuizen| Jan 2023 |
+| [Building the KZG Ceremony](https://www.youtube.com/watch?v=Z2jR75njZKc) | PSE Learn and Share | Nico Serrano, Geoff Lamperd | Dec 2022 |
+| [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups](https://archive.devcon.org/archive/watch/6/the-kzg-ceremony-or-how-i-learnt-to-stop-worrying-and-love-trusted-setups/?tab=YouTube) | Devcon | Carl Beekhuizen | Oct 2022 | 
 
 ## Public Calls
 | Call # |Link | Date |
