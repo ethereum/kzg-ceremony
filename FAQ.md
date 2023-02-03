@@ -67,7 +67,7 @@ It is worth noting that the Powers of Tau are not raw numbers, but they are enco
 
 The Sequencer is a server hosted by the Ethereum Foundation which coordinates contributions. It keeps track of who is trying to contribute, serves them the necessary data to download, and verifies each contribution before sending the data to the next participant.
 
-You don't have to trust the Sequencer to produce a biased or invalid final output. The [transcript](https://sequencer.ethereum.org/info/current_state) provides a verifiable record of all randomness contributions that you can verify for yourself.
+You don't have to trust the Sequencer to produce a biased or invalid final output. The [transcript](https://seq.ceremony.ethereum.org/info/current_state) provides a verifiable record of all randomness contributions that you can verify for yourself.
 
 ### Couldn’t another commitment scheme without a "trusted setup" be used?
 
