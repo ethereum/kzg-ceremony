@@ -61,6 +61,7 @@ There are a number of independent implementations interested Ceremony participan
 | [kilic](https://github.com/kilic/bls12-381) | Go | Apache 2.0| |
 | [Herumi BLS](https://github.com/herumi/bls) | C++ & assembly | [modified BSD](http://opensource.org/licenses/BSD-3-Clause) | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf) |
 | [py_ecc](https://github.com/ethereum/py_ecc/) | Python | MIT | |
+| [noble-curves](https://github.com/paulmillr/noble-curves) | TypeScript/JS | MIT | |
 
 
 ## Media
