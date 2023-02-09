@@ -67,6 +67,7 @@ There are a number of independent implementations interested Ceremony participan
 
 | Title | Venue | Participants | Release Date |
 | :- | :-- | :--| --: |
+| [Episode 262: Ethereum’s KZG Ceremony with Trent & Carl](https://zeroknowledge.fm/262-2/) | Zero Knowledge | Anna Rose, Kobi Gurkan, Carl Beekhuizen, Trent Van Epps | Feb 2023|
 | [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) | Bankless | David Hoffman, Trent Van Epps, Carl Beekhuizen | Jan 2023 | 
 | [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) | EthCatHerders | Pooja Ranjan, Carl Beekhuizen | Jan 2023 | 
 | [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) | Epicenter | Friederike Ernst, Trent Van Epps, Carl Beekhuizen| Jan 2023 |
