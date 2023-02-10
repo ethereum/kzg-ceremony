@@ -60,7 +60,9 @@ There are a number of independent implementations interested Ceremony participan
 | [gnark-crypto](https://github.com/ConsenSys/gnark-crypto) | Go & assembly| Apache 2.0| [Audit Report](https://github.com/ConsenSys/gnark-crypto/blob/master/audit_oct2022.pdf) |
 | [kilic](https://github.com/kilic/bls12-381) | Go | Apache 2.0| |
 | [Herumi BLS](https://github.com/herumi/bls) | C++ & assembly | [modified BSD](http://opensource.org/licenses/BSD-3-Clause) | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf) |
+| [Constantine](https://github.com/mratsim/constantine) | Nim | Apache 2.0 | |
 | [py_ecc](https://github.com/ethereum/py_ecc/) | Python | MIT | |
+| [matterlabs/EIP1962](https://github.com/matter-labs/eip1962) | Rust | Apache 2.0 | |
 
 
 ## Media
