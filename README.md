@@ -37,7 +37,7 @@ There are a number of independent implementations interested Ceremony participan
 | [Chotto](https://github.com/StefanBratanov/chotto/) | blst ([jblst](https://github.com/ConsenSys/jblst)) | Java | Apache 2.0 | Stefan Bratanov (@StefanBratanov) ||
 | [go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client) | gnark-crypto| Go | MIT| Ignacio Hagopian (@jsign)| Features: transcript verification, using additional external sources of entropy, eg. drand network, an arbitrary URL provided by the user. Note: double signing not supported due to lack of hash-to-curve in gnark. |
 | [eth-KZG-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) | kilic | Go | GPL-3.0| Arnaucube (@arnaucube)| 
-| [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client)| blst | Go | MIT| Daniel Knopnik (@dknopik), Marius van der Widjen (@MariusVanDerWijden) | Linux only, no signatures. |
+| [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client)| blst | Go | MIT| Daniel Knopik (@dknopik), Marius van der Wijden (@MariusVanDerWijden) | Linux only, no signatures. |
 | [cpp-kzg-ceremony-client](https://github.com/PatriceVignola/cpp-kzg-ceremony-client)| blst | C++ | AGPL-3.0 | Patrice Vignola (@PatriceVignola) | Features: BLS/ECDSA signing, transcript verification, Linux/Windows/MacOS support |
 | [czg-keremony](https://github.com/dsrvlabs/czg-keremony)| noble-curves | JavaScript | MIT | JoonKyo Kim (@rootwarp),  HyungGi Kim (@kim201212) |  |
 
