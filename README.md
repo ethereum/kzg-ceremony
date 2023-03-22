@@ -64,6 +64,7 @@ There are a number of independent implementations interested Ceremony participan
 | [Constantine](https://github.com/mratsim/constantine) | Nim | Apache 2.0 | |
 | [py_ecc](https://github.com/ethereum/py_ecc/) | Python | MIT | |
 | [matterlabs/EIP1962](https://github.com/matter-labs/eip1962) | Rust | Apache 2.0 | |
+| [noble-curves](https://github.com/paulmillr/noble-curves) | TypeScript/JS | MIT | |
 
 
 ## Media
