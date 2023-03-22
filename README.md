@@ -39,6 +39,7 @@ There are a number of independent implementations interested Ceremony participan
 | [eth-KZG-ceremony-alt](https://github.com/arnaucube/eth-kzg-ceremony-alt) | kilic | Go | GPL-3.0| Arnaucube (@arnaucube)| 
 | [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client)| blst | Go | MIT| Daniel Knopnik (@dknopik), Marius van der Widjen (@MariusVanDerWijden) | Linux only, no signatures. |
 | [cpp-kzg-ceremony-client](https://github.com/PatriceVignola/cpp-kzg-ceremony-client)| blst | C++ | AGPL-3.0 | Patrice Vignola (@PatriceVignola) | Features: BLS/ECDSA signing, transcript verification, Linux/Windows/MacOS support |
+| [czg-keremony](https://github.com/dsrvlabs/czg-keremony)| noble-curves | JavaScript | MIT | JoonKyo Kim (@rootwarp),  HyungGi Kim (@kim201212) |  |
 
 ### Browser Interfaces
 
@@ -60,7 +61,9 @@ There are a number of independent implementations interested Ceremony participan
 | [gnark-crypto](https://github.com/ConsenSys/gnark-crypto) | Go & assembly| Apache 2.0| [Audit Report](https://github.com/ConsenSys/gnark-crypto/blob/master/audit_oct2022.pdf) |
 | [kilic](https://github.com/kilic/bls12-381) | Go | Apache 2.0| |
 | [Herumi BLS](https://github.com/herumi/bls) | C++ & assembly | [modified BSD](http://opensource.org/licenses/BSD-3-Clause) | [Technical Assessment](https://blog.quarkslab.com/resources/2020-12-17-technical-assessment-of-herumi-libraries/20-07-732-REP.pdf) |
+| [Constantine](https://github.com/mratsim/constantine) | Nim | Apache 2.0 | |
 | [py_ecc](https://github.com/ethereum/py_ecc/) | Python | MIT | |
+| [matterlabs/EIP1962](https://github.com/matter-labs/eip1962) | Rust | Apache 2.0 | |
 | [noble-curves](https://github.com/paulmillr/noble-curves) | TypeScript/JS | MIT | |
 
 
@@ -68,6 +71,7 @@ There are a number of independent implementations interested Ceremony participan
 
 | Title | Venue | Participants | Release Date |
 | :- | :-- | :--| --: |
+| [Episode 262: Ethereum’s KZG Ceremony with Trent & Carl](https://zeroknowledge.fm/262-2/) | Zero Knowledge | Anna Rose, Kobi Gurkan, Carl Beekhuizen, Trent Van Epps | Feb 2023|
 | [Ethereum's KZG Ceremony](https://www.youtube.com/watch?v=nPzBMzX4pxQ) | Bankless | David Hoffman, Trent Van Epps, Carl Beekhuizen | Jan 2023 | 
 | [Peep an EIP - KZG Ceremony](https://www.youtube.com/watch?v=a_gWHaaOKSo) | EthCatHerders | Pooja Ranjan, Carl Beekhuizen | Jan 2023 | 
 | [Ethereum Foundation – EIP-4844 & KZG Ceremony](https://epicenter.tv/episodes/478) | Epicenter | Friederike Ernst, Trent Van Epps, Carl Beekhuizen| Jan 2023 |
