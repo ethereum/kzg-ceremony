@@ -40,6 +40,7 @@ There are a number of independent implementations interested Ceremony participan
 | [Towers of Pau](https://github.com/dknopik/towers-of-pau/tree/proper-client)| blst | Go | MIT| Daniel Knopik (@dknopik), Marius van der Wijden (@MariusVanDerWijden) | Linux only, no signatures. |
 | [cpp-kzg-ceremony-client](https://github.com/PatriceVignola/cpp-kzg-ceremony-client)| blst | C++ | AGPL-3.0 | Patrice Vignola (@PatriceVignola) | Features: BLS/ECDSA signing, transcript verification, Linux/Windows/MacOS support |
 | [czg-keremony](https://github.com/dsrvlabs/czg-keremony)| noble-curves | JavaScript | MIT | JoonKyo Kim (@rootwarp),  HyungGi Kim (@kim201212) |  |
+| [kzg-ceremony-client](https://github.com/NethermindEth/kzg-ceremony-client)| blst | C# | MIT | Alexey (@flcl42), CheeChyuan (@chee-chyuan), Michal (@mpzajac), Jorge (@jmederosalvarado), Prince (@prix0007) | |
 
 ### Browser Interfaces
 
