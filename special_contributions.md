@@ -127,12 +127,85 @@ __Powers of Tau Pubkeys:__
 
 __Tweet by contributor:__ https://twitter.com/rootwarp/status/1646717380868083712
 
+## Improvised Theatre
 
+Members of the Student Theatre Association in Eindhoven, [Doppio](https://doppio.nl/), recorded an imporv theater performance as a source of entropy for the ceremony. The performance comprised of both acting and singing using the structure of a soap-opera and a "revolving door" to guide the performance. Read more about what they did on their [blog post](http://web.archive.org/web/20230502173054/https://github.com/ThomasdenH/ethereum-kzg-ceremony-documentation).
 
+__Ethereum Address:__ `0xb70aa3d2b6dfcaa804c45ed0bfeb785562db42dc`
 
+__Powers of Tau Pubkeys:__
 
+```text
+2^12: 0x93d7ba163530c3d6f70b3f89d0bdd4986e53aad52d2279c75ee967ee080f32209a960a7d3070c41b1c94db0e4633c30c1814da27415289f989a524602c3455f8d82756b2c8c9f2e77a2c4e8bc2460ef137fcc3c5f46d4f16b1ab39b1345ac697
+2^13: 0x87ed4d56364f6348fab07a27c6676f540ab9cddce390efcf9ee84b9cca2a0ec391be5bcfaae127259dfdc6388680dd75084c99df9dfe27dc089fc8016bc0079e36ea94536056f2712e4c7644f7366c2467b8d4a8f4bf0351473443d78f9de5b8
+2^14: 0x8cc3102e8439e4e755544183af743914aec47e341a0a13b2ff857939fd16e0da7f3e741266192ed565e26dde3bca9a17192556efe0c54bacf20826a50cc7478c06fe5c15b379be2d96719db87435ff6622bfc699f77a09a9e86e0ff843cb28bf
+2^15: 0xb46c6e844ca35349147f6dbf3bcde313c84cb9992d9593d842dc254220219ec75fb255ce45f762873ed60208ae6ba0c200ac0cca920f15b2250c4c21b8e1793d6fd26810b87559f0516fc28e80620318e83b1afbcda0cb3beb6f4b32e48fa811
+```
 
+![Improv Theatre](./img/sc_05_improv.jpg)
 
+__Tweet by contributor:__ https://twitter.com/ThomasdenH/status/1645911736896110594
+
+## A Calculating Car
+
+[Stephen Solis](http://web.archive.org/web/20220805222403/https://stephensol.is/) drove around in a car equipped with a [Comma 3](http://web.archive.org/web/20230418103833/https://comma.ai/) self-driving module. He then recorded the data from the car's ODB port to an NVMe drive which was distroyed after using the data as an entropy source.
+
+__Ethereum Address:__ `0x192ccacdd6da99463e1e8a76223ea07a6cde3479`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0x932a946bad415d52f5df4a33400343f234207ac228356e31402d7dc59fa8d070a40fec9845f227473308b928e47d15e50554eb9d98784099ae9918a4c6c69402e1f5123a78a97d4d054fee94d817ea043b3f3eaf9af259ddd209d5e0b7d01ca3
+2^13: 0xb3a1d9379b96cdb29aa8f381555efcda1273e9ea8168e9d43e7bf62d461100ec905da84251799e6201c808e670da42d90784856ff819e797ca39ad7510152c048374df8f748327b9a2d5c8f10e220046cb83b71e6eb516bfa627af5e367436e3
+2^14: 0x9642b7ea0df52d7c4e0a35b385659551887d6e5fab5458d89cd898b382f6dd2aa82ce49d8db4921ad85741fb347b1a93057b8e1e84687a40fb659550fb1db4afe6924fec2ae1d73efd628f7dc0f9e343319971b7397baa6e24949c1cc243461a
+2^15: 0xa5fb2e8b94cc38941e392902875ea3d8d2e2de9a848184ea06a5fe38ba3021b243e52f26019cf849ac624ca20fae5fbd14b7657c4f66922d59412cd7cfb436946f40c0f96e3c7d7a2344336888f6ab905fca9c66717edc69887f227ef09be141
+```
+
+___BLS Signatures:__
+
+```text
+2^12: 0xa684f7c8f920ec8476783cee786b56a50e98810ea7148c8bc855e798c20de1aa6decf0efc8742599691f941c6690af53
+2^13: 0xa602fc258c1944074a0755a3b37394335c5d3eb56cb29ffb03acd4d14bf376c4aebf3f6f2033c6ade2acfe09c3f76916
+2^14: 0x866f1f90bf1ed70ed7bfe5d81ba168697899602d7a769c0e3f82b3b5b7deb061d9adbe75e3d1642736deaad65c5e73d4
+2^15: 0x85906813236394b76273829318c84552aa93e134d58757c6329ef3231918444f32a3da1d1422248c486e7d151af9599b
+```
+
+## A noisy city
+
+Jordin Coppard recorded the noise of Sydney from a balcony and used the raw data stream as an entropy source.
+
+__Ethereum Address:__ `0xf4BA33f683aCA91128A8915de6664cB662e59af2`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0xa9138a78d90473eb2e4d5a2bb141318e7f0a4045e6651a23e0e96a0da596cca944ebc6614e63c2dfdf33e243d072d3f10fe361d14d27b61c956a0765b1efaa456b3e401334c900391a403f5013dabc9099de357a286274f53b8399355534d3b2
+2^13: 0x83209b8e3b4b9c85398d1f452d8607b2c0e9b98085484ffc42465237d10324bfc54bbba7064b0a407ce21effd2cf294c087068391b57f9ad6ee65b875e36ecc442f7c2d0997c9dd238d59da72a73cc236320529ac1743ca566dbc28b7b4180bc
+2^14: 0xa8705cca3841b4cb715613e8cc856cc765b8f48c6fe4ce157fd98e11ac52cbc602e476dcef39c6d8f4dbbc63686ba41e0e19b53b4f89f3e99f79b86887e30e28dfa63aeebf7577940b13d259be1a09f08016d14ca4b875d42f56998d6bef2c9b
+2^15: 0xaf2a56a7e5234950bcde7cc3f31fdb6e5fb8ec7528d05e5b58b0faf696c2a8912fa2a8f20984cd77596fda9da45384e803f8244172ba76300749b0c08754f62ac233e41a14e097cfd67899dfa000e741b88ac995eb9a1865de2400078be06a76
+```
+
+![Sydney can be a loud place](./img/sc_07_noisy_city.jpg)
+
+__Tweet by contributor:__ https://twitter.com/wz__ht/status/1646414895997648897
+
+## Exothermic Entropy
+
+The [Mach34 Team](http://web.archive.org/web/20220910211520/https://mach34.space/) detonated 4 pounds of a binary explosive called Tannerite and used a [RaspberryShake](http://web.archive.org/web/20230410210102/https://raspberryshake.org/) to record the seismic activity as entropy. Afterwards, they destroyed the storage media with a rifle. Read about their escapades [here](http://web.archive.org/web/20230502181323/https://medium.com/@outsideranalytics/exothermic-entropy-884997e28024).
+__Ethereum Address:__ `0x147d740aaf617b46e85304d2590acc20a90cee7c`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0xb4def5b4585f28b55ea240ecb018b1e0291ef69860629e8fc6561a5a87d45d988c0f156c888c0a786dba4c23df0e6a4c11b1827f2d35466af57dbafd9b9487a0c194f2fbb68ed16da790804c8764016bacea9f9830871bd77643da3574d90c47
+2^13: 0x84a644c897e4dad1f6626c63c93ba3cf55668fed60dbcab652b5adce691b4908af3b51ce739ecade41902c99c1fe075318733e03b785947e4f500ccc2146604d74b502e229c3ccf3627b03a4bbdc3a27a0ab3eb3bbbfab15599889ec2432613e
+2^14: 0xa5e0d95150c9fca0d55f729c5b359622f297bb1a5400fbcbfb65b797441df1f2caa00c6b168df639a754e90c826d7fc311782317901b810c8ef1081887ea24adf2a8ada2690a93211486ec390cb862f93af60f1c1110aa157e0c9fbfadd871d1
+2^15: 0xb03b424f983ffa7a36426230f4a55c100cfc1c07cedcb586a0f0a4f3e6bc3a9bf0fff0f72acfcc4d7bf5fc137ec55940022f1858ef9668b8c749602bdff2eaa10c20f2f33c19e35484978751d104d2001cdbb36014f2fb1a7abd4718f60017ff
+```
+
+![Boom](./img/sc_08_rifle.png)
+
+__Tweet by contributor:__ https://twitter.com/mach34_/status/1647055219422040064
 
 
 
