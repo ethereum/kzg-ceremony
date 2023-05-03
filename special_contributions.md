@@ -148,7 +148,7 @@ __Tweet by contributor:__ https://twitter.com/ThomasdenH/status/1645911736896110
 
 ## A Calculating Car
 
-[Stephen Solis](http://web.archive.org/web/20220805222403/https://stephensol.is/) drove around in a car equipped with a [Comma 3](http://web.archive.org/web/20230418103833/https://comma.ai/) self-driving module. He then recorded the data from the car's ODB port to an NVMe drive which was distroyed after using the data as an entropy source.
+[Stephen Solis](http://web.archive.org/web/20220805222403/https://stephensol.is/) drove around in a car equipped with a [Comma 3](http://web.archive.org/web/20230418103833/https://comma.ai/) self-driving module. He then recorded the data from the car's ODB port to an NVMe drive which was destroyed after using the data as an entropy source.
 
 __Ethereum Address:__ `0x192ccacdd6da99463e1e8a76223ea07a6cde3479`
 
@@ -192,6 +192,7 @@ __Tweet by contributor:__ https://twitter.com/wz__ht/status/1646414895997648897
 ## Exothermic Entropy
 
 The [Mach34 Team](http://web.archive.org/web/20220910211520/https://mach34.space/) detonated 4 pounds of a binary explosive called Tannerite and used a [RaspberryShake](http://web.archive.org/web/20230410210102/https://raspberryshake.org/) to record the seismic activity as entropy. Afterwards, they destroyed the storage media with a rifle. Read about their escapades [here](http://web.archive.org/web/20230502181323/https://medium.com/@outsideranalytics/exothermic-entropy-884997e28024).
+
 __Ethereum Address:__ `0x147d740aaf617b46e85304d2590acc20a90cee7c`
 
 __Powers of Tau Pubkeys:__
@@ -207,10 +208,65 @@ __Powers of Tau Pubkeys:__
 
 __Tweet by contributor:__ https://twitter.com/mach34_/status/1647055219422040064
 
+## The Sferic Project
 
+Digital artist, [Matt DesLauriers](http://web.archive.org/web/20230417162857/https://www.mattdesl.com/) sampled the Very Low Frequency radio (300 Hz and 13 kHz) radio spectrum on southern coast of the United Kingdom to capture lightning strikes and other atmospheric noise collectively known as _sferics_. This data was then fed into the ceremony as a source of randomness.
 
+__Ethereum Address:__ `0x32262672c6d1b814019f4ca4e2fc53285a919704`
 
+__Powers of Tau Pubkeys:__
 
+```text
+2^12: 0xb3b911dc87eca0dbd112683c0b4a2de75c7ed54dacecf7e39ad195635f184500b0dc1b1e76e91fc618c271aa90f0c5d1004a62a6770a1c124465b33742f6ce6eeb396f037197a39005e767072aad4d2ebbb4e2a4f2924a2fb75afc2774d1df97
+2^13: 0x8275ccada94f3eeef20dde781243fc7b0229e5607b9b1a720a60de25984c8c7dafcfdfa54a6326b27219e94480973ac213560c92a8225c9d9d081459679d648e79552875807c278c2656f12abb267b10d30ff1f060428bc88536b46219147ee6
+2^14: 0x8f2287c6b5d5faeb6860bca0fa66c979117f44d7b1aaf01120c167e650bf0483067d4bd6e72e241804fcc6d18a885a4206683ee3459db5ce4e10167a675dec39ff840ee2a7f392f9bd175f7523d2c01a6c3a39268584ccaf0392f537d823bbcc
+2^15: 0x96a1bbb71fdaa3d21438505bc651d1033011635946685e3f48e17d3fbbc1fe0f22e92fa359572eaf536edf4d17ac49f307ac3c8c4986d74d5e2edbb5277ee2a5fbc65250bbc1497ba20d51268647e5293677221854202eb40acf4f72b5029a98
+```
+
+![Measuring atmospheric noise](./img/sc_09_spherics_sampling.jpg)
+![Contributing spheric entropy](./img/sc_09_spherics_computer.jpg)
+
+__Tweet by contributor:__ https://twitter.com/mattdesl/status/1646998422438682625
+
+## The Great Belgian Beer Entropy Caper
+
+`heeckhau.eth` and `sponnet.eth` contributed entropy by video-recording the pouring and fizzing of Belgian beers using a webcam and an [AVADO i5 box](http://web.archive.org/web/20230411100207/https://ava.do/) before destroying the USB flash drive used for live-booting Ubuntu with a hammer.
+
+__Ethereum Address:__ `0x8dd4e78567201d1d9f8459a265f4d0ae81ae3c83`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0xb4df712ca54b240fbc81a5afb52409fa398d8699fa8738825aa68ef9209a813bffced68d86a18a2f6995f5c803d86ce40d4f4eb729a78fbfef2ebe400ebdd847d07b95f197dba5eb8784ec49e6ac6c36990a539f6d11994d43a7dd157648977e
+2^13: 0x802a188a831aaee5b64121ea1c31f385a5f0f68145b004fbbfa5ce240396122cf137d7a2c7e0e09a199994fbb350462601008062a60535fd078c978ad7603e2c0e73ab121807b2410653c332282330a59ea1faa8935c69ec08d8c8c3cad44401
+2^14: 0x9013192130cc5f1b4476488b8ea2b6e0d6e1dd377faec09afd66d3bf09b99a274206f556acf1b8b78b095a3e0ea16c7f06ad803e1294edb81a890ec290350dd3964e10ad0980d1b306551ca192960149bf1daa6fb381cdae3a68e6a911964812
+2^15: 0xa45306ac93de744a34d30a65799ff37eb91e495e3a90299227b818c70a4a6cba2f1e29024d8c3e7adae50dcb96e9ff33195167e902d97e3efc73388c2374265c526cb88bd9bff46eef4080470d17dd46e37d6bfc1c9cee35739ce7e537870fc0
+```
+
+![Recording the bubbles](./img/sc_10_beer_recording.jpg)
+![Contributing spheric entropy](./img/sc_10_beer_usb_destruction.png)
+
+__Tweet by contributor:__ https://twitter.com/heeckhau/status/1647248232660058113
+
+## KZGamer - summoning Dankshard with a dice-tower
+
+Justin Florentine built a dice tower that could both collect entropy for the ceremony and help determine the outcomes of his table-top games. The dice tower was a sealed box which rolled the dice before collecting them in a sealed chamber in which they were photographed by a Raspberry Pi (and camera). Then computer vision was used to read the dice which were used to determine the success/failure/damage of a given roll while adding the dice values to an internal entropy accumulator. A trapdoor then opened to return the dice to the player. By the end of the game, 1024 bits of entropy had been collected and the SD card used in the Pi was burned until destruction.
+
+__Ethereum Address:__ `0xf51d203536ea8b5bfbc06b3a1c21514766b22bb1`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0x9157bfd6d53e6f9cd427aa84acfe47e7f1224ab99ac2c606ccea8dec3ba85a73d3b29c74422461697e9d86e36baa7f8d02add99798a40e2f32c2cd7185b13ad86f57fb7df418c708727d9ff2f85cc220f66353408151075785caf78f3b6c4dbe
+2^13: 0x92ae7793b9ba21e8dcfa88e4722acd8b5282d0ad9f9407db13b966797d8a98474986e3beb0d6271fb4fe68ea485dd8ff05144addcf1af56f69a2c26ad5e6009b481e77f431247a03c22e458da0f5264e1d0db7e3e5aa6f1fc93cf539271b77fc
+2^14: 0x908b21c002bb0a336e8c22da6c5f3ae688c7319f72045eff8817233fbb3c29a652f04a435e4392507462b4530f80db5c102844255ec594c1b15b3b2ae9f3a3797436846f754e8769f4c5450902d2f3d704971fb998881aeea998c64d37198391
+2^15: 0xa64a105c21f2d9cff3799ef38203ae6da23b12be6949ab8dd136244de4af918b6bdb4d69537af464c3b3a156f89655720b827a331ad71d3a43ce9420b7b81be6e81b69009824de01b618ea65d2512da82215d75c99fbe9e010df5c51279416e6
+```
+
+![Gaming table with tower in the background](./img/sc_11_kzgamer_tabletop.jpg)
+![Burning the SD Card](./img/sc_11_kzgamer_sd_burn.png)
+
+__Tweet by contributor:__ https://twitter.com/robocopsgonemad/status/1647022574595895301
 
 
 
