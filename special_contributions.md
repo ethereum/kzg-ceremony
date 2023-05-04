@@ -268,10 +268,37 @@ __Powers of Tau Pubkeys:__
 
 __Tweet by contributor:__ https://twitter.com/robocopsgonemad/status/1647022574595895301
 
+## Catropy
 
+[Proof of Cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) or Catropy is a project to collect entropy from cats playing with a ball. This was done by embedding a custom PCB with an [ESP-32 microcontroller](http://web.archive.org/web/20230415171816/https://www.espressif.com/en/products/socs/esp32-c3) and an [MPU-6500 6-axis IMU](http://web.archive.org/web/20230307183944/https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6500/) into a knitted ball and handing it to cat (or human). The ESP-32 would then collect data from the accelerometers and gyroscopes, hash it into an entropy accumulator and serve that entropy over WiFi to the server performing the PoT calculations. Visit [proofof.cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) for details on the multiple contributions, hardware, software, a [video](https://www.youtube.com/watch?v=Nqg8KdmP-_g) of the contribution, and how this project went further to support cat shelters.
 
+__Ethereum Address:__ `0xdb08c59302e8449fb5f2f6ccf7dde974e678a31f`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0x90bb2d0b11f285ed5a9cf06ed435c42dec65e98f7d31a6569d21360ed62ad2e6160d8eec56bddb32c6c0c50b8333908016d1d3684208522be38e5c4d968800fa09d048a5711a5d286c31e5b39861ce2adf65ee4c401569eea12a15a9be2d8125
+2^13: 0x8e9ea8bd5cde8c3ec463533850373b1403f906292fb87758e09e42cae4836a3d79ea210f5d117e99b9b84af2e9978ecd197e2a9488c7eaef27e54a8fd4c77190b844edf8378b46a84fef2a0054cf1d53371944edb1a409b2d4dfcdecc3523ae1
+2^14: 0xb258f5e8c3b413f594a1e97f797d246a12c0e669bb6d75cbb5fe97e467528fdc3429beabb51b352d162f768a33d366bf022a0a2f35a6ab70f714bd3bbccbb8dff3751bfb86243e18a81a92dba5870d692c910ae757675106a0dac41682382798
+2^15: 0x995bc110eff9b401282d4674753f8dff975d78601f1a3695e1c14f99af0b58bf8acf47c1bfff5e3d9100fef5bb2b8a140a415551034eb9494775c512ee5cc9fc47f031dad6b454f96ecd8632e94306ca8f4decf67c6e6a3974a46cba586d84dc
+```
+
+![Catropy PCB](./img/sc_12_catropy_device.jpeg)
+![Proof of Proof of Cat](./img/sc_12_catropy_contribution.png)
+
+__Tweet by contributor:__ https://twitter.com/0x_Ytocin/status/1647291053429456903
 
 ## `srsly` - an iOS KZG Ceremony client
 
 `srsly` is a KZG Ceremony client (and BLS library!) for iOS written in Swift by @srikrishnamurthy. The library is available on GitHub [vishady721/swift-kzg-ios-client](https://github.com/vishady721/swift-kzg-ios-client).
 
+__Ethereum Address:__ `0xdf369cde73ce4d75deba0d9a6f67873ea9350b9b`
+
+__Powers of Tau Pubkeys:__
+
+```text
+2^12: 0xb2c3a994728990489e9b4baccf2ca2d178478b8adb60e9d339bb8d6305d9a726e20be519208b03189c175d6b1e1231c81079cca38a8fef5b576b714225dab3e46241d18510b19de9639b84e136f3fef055a60ef610ba2daeaf6df03583b80665
+2^13: 0xb32320ac9ea45e0e7e83809e441166ff82fb55eaf5b617f04b7971c0972780f41ffab86d5e8b729c4886acf25212cd6102df3edee2367278370ffe71f7021d7abb4dc2b10fb01f965c34c02f249f93b2c2e1de250cd54c094be8561e004f0678
+2^14: 0xb9dcedee0b1467900783e50cdd08f9bc849af9cc9ae7f81df3aeecaaec2df83c68525c7fe90adf82a3e6999dad693c451166b3f5304258713dff5faf73ee4d7eedadc18ae80150fe44252b33f4820cb52feb6b1045db54668f2b3a5bd2654993
+2^15: 0x8a000e8d0c2a591585307e1a98558f7dbab8d6867297870d70c8d66efb4c72972b84f233bf6b2938c5c2b9d6d009489605a6b547b6aa91bdd0b3fb2c799ccd5774131c1e12d993cd25bf16b682e95c2616e90be0a7302a0b126dedaf16ced798
+```
