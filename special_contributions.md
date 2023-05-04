@@ -17,7 +17,7 @@ __Powers of Tau Pubkeys:__
 
 ![Cryptosat](./img/sc_00_cryptosat.png)
 
-__Tweet by contributor:__ https://twitter.com/cryptosat/status/1643651104889241600
+__Tweet by contributor:__ [https://twitter.com/cryptosat/status/1643651104889241600](https://twitter.com/cryptosat/status/1643651104889241600)
 
 __Additional Links:__
 
@@ -46,7 +46,7 @@ __Powers of Tau Pubkeys:__
 
 ![Marble Machine](./img/sc_01_marble_machine.jpg)
 
-__Tweet by contributor:__ https://twitter.com/Xofee3/status/1644016160210313218
+__Tweet by contributor:__ [https://twitter.com/Xofee3/status/1644016160210313218](https://twitter.com/Xofee3/status/1644016160210313218)
 
 __Additional Links:__
 
@@ -66,12 +66,14 @@ __Powers of Tau Pubkeys:__
 2^14: 0x8bbb410a8343e7b58074c5c565128aa56770d24dead438d91b21eb8d6c96d386f7c848f11449c9b65c41889a17ec703006bd98feac3b1f4c1bb3306c9442bf6d00e486afd8b921bc13a372806c2120271d037725dfa30c215ef3ed5ba3db4a98
 2^15: 0x824ad6476d49e2a5e450298f7a5d772e435f221e71b5064b2f00f1bd10df2fa8b5c07cdbd5a25491dbbd87b01c7fbdb60264ecbe46700cfdd85582b2be250919bc080ef70f56c81093dc5871a4fc291a9f152839dd309d4d641c3a70a50554fb
 ```
+
 ```text
 2^12: 0x85589d23b34e05459dffe32c0056d38c5169febc9057d2b27b6035dcff2d0c22bfb4fa5c35320a60a5be90f74c8854a00f9a7fab86abd4ac7f7e9fa4596a81eb9cf0a52b996e590ce0405d66b64b77e3b647eb442afff7ce458b140da71ac3f5
 2^13: 0xa6f7823adc830bf825d27787086172969a5240ec8cd5b961fdd96974cba1b1f8a16765b618fabf23d22ad9c6c418f32711f208091a210a632ee0bb321dad0dc5e1cd69dd75116a0ac82bd48e75070501ead7548ec13f37030df293e7ee285c89
 2^14: 0xb0eeccf05f44ff300239d08ae4d560174b56940cd7883d2df0b5af37169bf5efa459d70bed7f6ea78ce358eaa33834c314e18d5435cdc119f18058223bbe0d3b6e54fdc82d3f1f13acb31f62153683b44c71654a46fa240ab442e5dc41eeb8ab
 2^15: 0xb5897c2bc22f85b1b058e128782946cc1542ff335056bd4c5862f1c01fa54955ff521840fcc4798fbf02c0550b3faba91359a221b1290583a69f8ce45573655d11d8c16d5ca23fa1b97dc9502247eccc85b27ac2f02ee6d76024dd17c76c3d71
 ```
+
 ```text
 2^12: 0xa5b8ebc3d76ee03334da93a3fbc63a4378269d02531c1b29b22b63795e25db7a0f46693be4624b2c1d157f651c3226fe00b6d6c2011589f68badb272e52268fe0522da249e28b9beb325bc19fd0840c4cee4859b9c0ebe0791ae74444c725552
 2^13: 0x8cb45dedabb4a944d3d53f842e2ed7214fcaf10c4138119e72f0a400d9c2615c8621e83f2d00f16cef5beca4c54422ce06524f9eea82bb7cc3d7a5f750b8761d4667c84556ecc9c1670f8013d4bad903131d714c9373ff4549c991aaa26aad3d
@@ -82,7 +84,7 @@ __Powers of Tau Pubkeys:__
 ![Album creation](./img/sc_02_ephemeral_create.jpg)
 ![Hardware destruction](./img/sc_02_ephemeral_destroy.jpg)
 
-__Tweet by contributor:__ https://twitter.com/trent_vanepps/status/1645532615137693703
+__Tweet by contributor:__ [https://twitter.com/trent_vanepps/status/1645532615137693703](https://twitter.com/trent_vanepps/status/1645532615137693703)
 
 ## Dog Dinner Dance Dynamics
 
@@ -102,7 +104,7 @@ __Powers of Tau Pubkeys:__
 ![Charlie is a good boi](./img/sc_03_charlie_meme.png)
 ![Charlie is a hungry boi](./img/sc_03_charlie_eating.jpeg)
 
-__Tweet by contributor:__ https://twitter.com/saint_rat/status/1647598125480284161
+__Tweet by contributor:__ [https://twitter.com/saint_rat/status/1647598125480284161](https://twitter.com/saint_rat/status/1647598125480284161)
 
 __Additional Links:__
 
@@ -125,7 +127,7 @@ __Powers of Tau Pubkeys:__
 
 ![CZG-Keremony](./img/sc_04_dsrv.jpg)
 
-__Tweet by contributor:__ https://twitter.com/rootwarp/status/1646717380868083712
+__Tweet by contributor:__ [https://twitter.com/rootwarp/status/1646717380868083712](https://twitter.com/rootwarp/status/1646717380868083712)
 
 ## Improvised Theatre
 
@@ -144,7 +146,7 @@ __Powers of Tau Pubkeys:__
 
 ![Improv Theatre](./img/sc_05_improv.jpg)
 
-__Tweet by contributor:__ https://twitter.com/ThomasdenH/status/1645911736896110594
+__Tweet by contributor:__ [https://twitter.com/ThomasdenH/status/1645911736896110594](https://twitter.com/ThomasdenH/status/1645911736896110594)
 
 ## A Calculating Car
 
@@ -187,7 +189,7 @@ __Powers of Tau Pubkeys:__
 
 ![Sydney can be a loud place](./img/sc_07_noisy_city.jpg)
 
-__Tweet by contributor:__ https://twitter.com/wz__ht/status/1646414895997648897
+__Tweet by contributor:__ [https://twitter.com/wz__ht/status/1646414895997648897](https://twitter.com/wz__ht/status/1646414895997648897)
 
 ## Exothermic Entropy
 
@@ -206,7 +208,7 @@ __Powers of Tau Pubkeys:__
 
 ![Boom](./img/sc_08_rifle.png)
 
-__Tweet by contributor:__ https://twitter.com/mach34_/status/1647055219422040064
+__Tweet by contributor:__ [https://twitter.com/mach34_/status/1647055219422040064](https://twitter.com/mach34_/status/1647055219422040064)
 
 ## The Sferic Project
 
@@ -226,7 +228,7 @@ __Powers of Tau Pubkeys:__
 ![Measuring atmospheric noise](./img/sc_09_spherics_sampling.jpg)
 ![Contributing spheric entropy](./img/sc_09_spherics_computer.jpg)
 
-__Tweet by contributor:__ https://twitter.com/mattdesl/status/1646998422438682625
+__Tweet by contributor:__ [https://twitter.com/mattdesl/status/1646998422438682625](https://twitter.com/mattdesl/status/1646998422438682625)
 
 ## The Great Belgian Beer Entropy Caper
 
@@ -246,7 +248,7 @@ __Powers of Tau Pubkeys:__
 ![Recording the bubbles](./img/sc_10_beer_recording.jpg)
 ![Contributing spheric entropy](./img/sc_10_beer_usb_destruction.png)
 
-__Tweet by contributor:__ https://twitter.com/heeckhau/status/1647248232660058113
+__Tweet by contributor:__ [https://twitter.com/heeckhau/status/1647248232660058113](https://twitter.com/mattdesl/status/1646998422438682625)
 
 ## KZGamer - summoning Dankshard with a dice-tower
 
@@ -266,7 +268,7 @@ __Powers of Tau Pubkeys:__
 ![Gaming table with tower in the background](./img/sc_11_kzgamer_tabletop.jpg)
 ![Burning the SD Card](./img/sc_11_kzgamer_sd_burn.png)
 
-__Tweet by contributor:__ https://twitter.com/robocopsgonemad/status/1647022574595895301
+__Tweet by contributor:__ [https://twitter.com/robocopsgonemad/status/1647022574595895301](https://twitter.com/robocopsgonemad/status/1647022574595895301)
 
 ## Catropy
 
@@ -286,7 +288,7 @@ __Powers of Tau Pubkeys:__
 ![Catropy PCB](./img/sc_12_catropy_device.jpeg)
 ![Proof of Proof of Cat](./img/sc_12_catropy_contribution.png)
 
-__Tweet by contributor:__ https://twitter.com/0x_Ytocin/status/1647291053429456903
+__Tweet by contributor:__ [https://twitter.com/0x_Ytocin/status/1647291053429456903](https://twitter.com/0x_Ytocin/status/1647291053429456903)
 
 ## `srsly` - an iOS KZG Ceremony client
 
