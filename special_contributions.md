@@ -1,10 +1,20 @@
 # KZG Ceremony Special Contributions
 
-## Cryptosat
+## 00 - Cryptosat
 
 The Cryptosat team kicked off the Special Contribution period with a contribution from space aboard their Crypto 2 satellite. Read about what they did and how on [their blog](http://web.archive.org/web/20230415055203/https://docs.cryptosat.io/cryptosat/cryptosat/contribution-to-the-ethereum-kzg-ceremony).
 
-__Ethereum Address:__ `0x15be596f2245ab321d8a357f827006520330a98c`
+### Details
+
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x15be596f2245ab321d8a357f827006520330a98c`|
+|Start Time:            |2023-04-04 00:00:00 UTC|
+|End Time:              |2023-04-05 15:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[Cryptosat blog]((http://web.archive.org/web/20230415055203/https://docs.cryptosat.io/cryptosat/cryptosat/contribution-to-the-ethereum-kzg-ceremony))|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/cryptosat/status/1643651104889241600)|
 
 __Powers of Tau Pubkeys:__
 
@@ -14,10 +24,6 @@ __Powers of Tau Pubkeys:__
 2^14: 0xa596762cb98d5f8e3df3f2caa15270f1e97cb138c75dc7316371884b33756c68e2e78cfe6821a032dced340aab9a861f09de5018b7c02ee6e5fb5e1bfc9cbcb865eb3fbedaeb0d9020a11137436b1c3a50749f54e9a4c33028d1153a3d4ef4e1
 2^15: 0x86a6823f45d6fdc7968494b69ba099194509f702e380c3730b98cf81a08a7853e0e90c22e9073543b03854bf91e3d96d1718d373dee465ceccd6075bfa53fa740b7cbfd422adf765a5b970b41a069d8fb2394f6d09ab6c82404913586ab77192
 ```
-
-![Cryptosat](./img/sc_00_cryptosat.png)
-
-__Tweet by contributor:__ [https://twitter.com/cryptosat/status/1643651104889241600](https://twitter.com/cryptosat/status/1643651104889241600)
 
 __Additional Links:__
 
@@ -29,11 +35,23 @@ __Additional Links:__
 - [TipRanks article](http://web.archive.org/web/20230405213313/https://www.tipranks.com/news/article/cryptosat-joins-ethereum-kzg-cryptography-ceremony-from-space)
 - [Benzinga article](http://web.archive.org/web/20230424063640/https://www.benzinga.com/pressreleases/23/04/31659948/cryptosat-prepares-first-ethereum-kzg-share-to-emanate-from-an-earth-orbiting-satellite)
 
-## The KZG Marble Machine
+![Cryptosat](./img/sc_00_cryptosat.png)
+
+## 01 - The KZG Marble Machine
 
 The KZG Marble Machine is an artwork\contraption with different sections of track showing off different phases of Ethereum's history. The machine uses 23 sensors to measure small fluctuations in each marble's run as well as various environmental factors to ensure the randomness is unbiased. Read [`xofee.eth`'s writeup here](http://web.archive.org/web/20230415205327/https://medium.com/@Xofee3/the-kzg-marble-machine-my-special-contribution-to-ethereums-kzg-ceremony-d137313443a1) or even [3D print your own machine](github.com/XofEE/KZG-Marble-machine).
 
-__Ethereum Address:__ `0xFF141bFc450c57Ad84eBaFbD09ffa94A268a7aaE` (`xofee.eth`)
+### Details
+
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xFF141bFc450c57Ad84eBaFbD09ffa94A268a7aaE` (`xofee.eth`)|
+|Start Time:            |2023-04-06 16:00:00 UTC|
+|End Time:              |2023-04-06 20:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[`xofee.eth`'s Medium article](http://web.archive.org/web/20230415205327/https://medium.com/@Xofee3/the-kzg-marble-machine-my-special-contribution-to-ethereums-kzg-ceremony-d137313443a1)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/Xofee3/status/1644016160210313218)|
 
 __Powers of Tau Pubkeys:__
 
@@ -46,17 +64,27 @@ __Powers of Tau Pubkeys:__
 
 ![Marble Machine](./img/sc_01_marble_machine.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/Xofee3/status/1644016160210313218](https://twitter.com/Xofee3/status/1644016160210313218)
-
 __Additional Links:__
 
 - [Marble Machine Youtube Video](http://youtu.be/zKrcUxOeBF4)
 
-## Mr. Moloch's Ephemeral Album II
+## 02 - Mr. Moloch's Ephemeral Album II
 
 `smartcontracts.eth` brought 40 members of the New York Ethereum community together to make an album together over the course of a day. The result was a an ephemeral album: attendees got to listen to the music while it was recorded by 3 second-hand computers which then used these recordings as entropy to contribute to the ceremony before they were destroyed.
 
-__Ethereum Address:__ `0x4cdc4f412355f296c2cf261210cc9274404e442b`, `0x68108902de3a5031197a6eb3b74b3b033e8e8e4d`, `0x3a953298098cadcb621a40c1efcfb7dd73b727af`
+### Details
+
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address 1:    |`0x4cdc4f412355f296c2cf261210cc9274404e442b`|
+|Ethereum Address 2:    |`0x68108902de3a5031197a6eb3b74b3b033e8e8e4d`|
+|Ethereum Address 3:    |`0x3a953298098cadcb621a40c1efcfb7dd73b727af`|
+|Start Time:            |2023-04-08 20:00:00 UTC|
+|End Time:              |2023-04-09 04:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |TBD |
+|Tweet by contributor:  |  [Twitter](https://twitter.com/trent_vanepps/status/1645532615137693703)|
 
 __Powers of Tau Pubkeys:__
 
@@ -84,13 +112,21 @@ __Powers of Tau Pubkeys:__
 ![Album creation](./img/sc_02_ephemeral_create.jpg)
 ![Hardware destruction](./img/sc_02_ephemeral_destroy.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/trent_vanepps/status/1645532615137693703](https://twitter.com/trent_vanepps/status/1645532615137693703)
-
-## Dog Dinner Dance Dynamics
+## 03 - Dog Dinner Dance Dynamics
 
 @saint-rat fed their dog, Charlie, biscuits which they had scatted over the floor. They then used [a python script](https://github.com/saint-rat/KZG-Ceremony-Contribution-Code) and computer vision to track the location of Charlie and the biscuits as he ate them. This information was folded into the entropy contribution before destroying the SD card and flash-drive used by the Raspberry Pi for the contribution. [Read the details here.](http://web.archive.org/web/20230416141630/https://medium.com/@saint-rat/dog-dinner-dance-dynamics-a-peculiar-path-to-enhancing-entropy-in-the-kzg-ceremony-86a0b2a4eaf0)
 
-__Ethereum Address:__ `0x051f77131b0ea6d149608021e06c7206317782cc`
+### Details
+
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x051f77131b0ea6d149608021e06c7206317782cc`|
+|Start Time:            |2023-04-06 16:00:00 UTC|
+|End Time:              |2023-04-06 20:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[@saint-rat's Medium article](http://web.archive.org/web/20230416141630/https://medium.com/@saint-rat/dog-dinner-dance-dynamics-a-peculiar-path-to-enhancing-entropy-in-the-kzg-ceremony-86a0b2a4eaf0)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/saint_rat/status/1647598125480284161)|
 
 __Powers of Tau Pubkeys:__
 
@@ -104,17 +140,24 @@ __Powers of Tau Pubkeys:__
 ![Charlie is a good boi](./img/sc_03_charlie_meme.png)
 ![Charlie is a hungry boi](./img/sc_03_charlie_eating.jpeg)
 
-__Tweet by contributor:__ [https://twitter.com/saint_rat/status/1647598125480284161](https://twitter.com/saint_rat/status/1647598125480284161)
-
 __Additional Links:__
 
 - [Video of hardware destruction](https://twitter.com/i/status/1647601259724275713)
 
-## `CZG-Keremony` - a pure JS KZG ceremony client
+## 04 - `CZG-Keremony` - a pure JS KZG ceremony client
 
 [`CZG-Keremony` is a KZG ceremony client](https://github.com/dsrvlabs/czg-keremony) written entirely in JavaScript by the [DSRV Labs](https://www.dsrvlabs.com/) team. Under the hood, it uses @paulmillr's [https://github.com/paulmillr/noble-curves](noble-curves BLS implementation), so this is an end-to-end contribution done in pure JS. `rootwarp.eth` and @kim201212 performed an airgapped contribution on a RaspberryPi 2 before destroying the SD card.
 
-__Ethereum Address:__ `0xa455150c6b91d08faa57dc664b916e1ddd1c4030`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xa455150c6b91d08faa57dc664b916e1ddd1c4030`|
+|Start Time:            |2023-04-11 08:00:00 UTC|
+|End Time:              |2023-04-11 12:00:00 UTC|
+|Client Implementation: |[CZG-Keremony](https://github.com/dsrvlabs/czg-keremony)|
+|BLS Library:           |  [noble-curves](https://github.com/paulmillr/noble-curves)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/rootwarp/status/1646717380868083712)|
+
+__Ethereum Address:__ ``
 
 __Powers of Tau Pubkeys:__
 
@@ -127,13 +170,19 @@ __Powers of Tau Pubkeys:__
 
 ![CZG-Keremony](./img/sc_04_dsrv.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/rootwarp/status/1646717380868083712](https://twitter.com/rootwarp/status/1646717380868083712)
-
-## Improvised Theatre
+## 05 - Improvised Theatre
 
 Members of the Student Theatre Association in Eindhoven, [Doppio](https://doppio.nl/), recorded an imporv theater performance as a source of entropy for the ceremony. The performance comprised of both acting and singing using the structure of a soap-opera and a "revolving door" to guide the performance. Read more about what they did on their [blog post](http://web.archive.org/web/20230502173054/https://github.com/ThomasdenH/ethereum-kzg-ceremony-documentation).
 
-__Ethereum Address:__ `0xb70aa3d2b6dfcaa804c45ed0bfeb785562db42dc`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xb70aa3d2b6dfcaa804c45ed0bfeb785562db42dc`|
+|Start Time:            |2023-04-11 20:00:00 UTC|
+|End Time:              |2023-04-12 00:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[Write up on Github](http://web.archive.org/web/20230502173054/https://github.com/ThomasdenH/ethereum-kzg-ceremony-documentation)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/ThomasdenH/status/1645911736896110594)|
 
 __Powers of Tau Pubkeys:__
 
@@ -146,13 +195,18 @@ __Powers of Tau Pubkeys:__
 
 ![Improv Theatre](./img/sc_05_improv.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/ThomasdenH/status/1645911736896110594](https://twitter.com/ThomasdenH/status/1645911736896110594)
-
-## A Calculating Car
+## 06 - A Calculating Car
 
 [Stephen Solis](http://web.archive.org/web/20220805222403/https://stephensol.is/) drove around in a car equipped with a [Comma 3](http://web.archive.org/web/20230418103833/https://comma.ai/) self-driving module. He then recorded the data from the car's ODB port to an NVMe drive which was destroyed after using the data as an entropy source.
 
-__Ethereum Address:__ `0x192ccacdd6da99463e1e8a76223ea07a6cde3479`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x192ccacdd6da99463e1e8a76223ea07a6cde3479`|
+|Start Time:            |2023-04-12 20:00:00 UTC|
+|End Time:              |2023-04-13 00:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |TBD|
 
 __Powers of Tau Pubkeys:__
 
@@ -172,11 +226,19 @@ ___BLS Signatures:__
 2^15: 0x85906813236394b76273829318c84552aa93e134d58757c6329ef3231918444f32a3da1d1422248c486e7d151af9599b
 ```
 
-## A noisy city
+## 07 - A noisy city
 
 Jordin Coppard recorded the noise of Sydney from a balcony and used the raw data stream as an entropy source.
 
-__Ethereum Address:__ `0xf4BA33f683aCA91128A8915de6664cB662e59af2`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xf4BA33f683aCA91128A8915de6664cB662e59af2`|
+|Start Time:            |2023-04-13 04:00:00 UTC|
+|End Time:              |2023-04-13 08:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |TBD|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/wz__ht/status/1646414895997648897)|
 
 __Powers of Tau Pubkeys:__
 
@@ -189,13 +251,19 @@ __Powers of Tau Pubkeys:__
 
 ![Sydney can be a loud place](./img/sc_07_noisy_city.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/wz__ht/status/1646414895997648897](https://twitter.com/wz__ht/status/1646414895997648897)
-
-## Exothermic Entropy
+## 08 - Exothermic Entropy
 
 The [Mach34 Team](http://web.archive.org/web/20220910211520/https://mach34.space/) detonated 4 pounds of a binary explosive called Tannerite and used a [RaspberryShake](http://web.archive.org/web/20230410210102/https://raspberryshake.org/) to record the seismic activity as entropy. Afterwards, they destroyed the storage media with a rifle. Read about their escapades [here](http://web.archive.org/web/20230502181323/https://medium.com/@outsideranalytics/exothermic-entropy-884997e28024).
 
-__Ethereum Address:__ `0x147d740aaf617b46e85304d2590acc20a90cee7c`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x147d740aaf617b46e85304d2590acc20a90cee7c`|
+|Start Time:            |2023-04-13 20:00:00 UTC|
+|End Time:              |2023-04-14 00:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[@outsideranalytics Medium article](http://web.archive.org/web/20230502181323/https://medium.com/@outsideranalytics/exothermic-entropy-884997e28024)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/mach34_/status/1647055219422040064)|
 
 __Powers of Tau Pubkeys:__
 
@@ -208,13 +276,19 @@ __Powers of Tau Pubkeys:__
 
 ![Boom](./img/sc_08_rifle.png)
 
-__Tweet by contributor:__ [https://twitter.com/mach34_/status/1647055219422040064](https://twitter.com/mach34_/status/1647055219422040064)
-
-## The Sferic Project
+## 09 - The Sferic Project
 
 Digital artist, [Matt DesLauriers](http://web.archive.org/web/20230417162857/https://www.mattdesl.com/) sampled the Very Low Frequency radio (300 Hz and 13 kHz) radio spectrum on southern coast of the United Kingdom to capture lightning strikes and other atmospheric noise collectively known as _sferics_. This data was then fed into the ceremony as a source of randomness.
 
-__Ethereum Address:__ `0x32262672c6d1b814019f4ca4e2fc53285a919704`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x32262672c6d1b814019f4ca4e2fc53285a919704`|
+|Start Time:            |2023-04-14 12:00:00 UTC|
+|End Time:              |2023-04-14 16:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[Matt DesLauriers' blog post](http://web.archive.org/web/20230421084214/https://www.mattdesl.com/sferics.html)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/mattdesl/status/1646998422438682625)|
 
 __Powers of Tau Pubkeys:__
 
@@ -228,13 +302,19 @@ __Powers of Tau Pubkeys:__
 ![Measuring atmospheric noise](./img/sc_09_spherics_sampling.jpg)
 ![Contributing spheric entropy](./img/sc_09_spherics_computer.jpg)
 
-__Tweet by contributor:__ [https://twitter.com/mattdesl/status/1646998422438682625](https://twitter.com/mattdesl/status/1646998422438682625)
-
-## The Great Belgian Beer Entropy Caper
+## 10 - The Great Belgian Beer Entropy Caper
 
 `heeckhau.eth` and `sponnet.eth` contributed entropy by video-recording the pouring and fizzing of Belgian beers using a webcam and an [AVADO i5 box](http://web.archive.org/web/20230411100207/https://ava.do/) before destroying the USB flash drive used for live-booting Ubuntu with a hammer.
 
-__Ethereum Address:__ `0x8dd4e78567201d1d9f8459a265f4d0ae81ae3c83`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0x8dd4e78567201d1d9f8459a265f4d0ae81ae3c83`|
+|Start Time:            |2023-04-14 16:00:00 UTC|
+|End Time:              |2023-04-14 20:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[Write up](https://docs.ava.do/specials/kzg_ceremony_ethereum/)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/heeckhau/status/1647248232660058113)|
 
 __Powers of Tau Pubkeys:__
 
@@ -248,13 +328,19 @@ __Powers of Tau Pubkeys:__
 ![Recording the bubbles](./img/sc_10_beer_recording.jpg)
 ![Contributing spheric entropy](./img/sc_10_beer_usb_destruction.png)
 
-__Tweet by contributor:__ [https://twitter.com/heeckhau/status/1647248232660058113](https://twitter.com/mattdesl/status/1646998422438682625)
-
-## KZGamer - summoning Dankshard with a dice-tower
+## 11 - KZGamer - summoning Dankshard with a dice-tower
 
 Justin Florentine built a dice tower that could both collect entropy for the ceremony and help determine the outcomes of his table-top games. The dice tower was a sealed box which rolled the dice before collecting them in a sealed chamber in which they were photographed by a Raspberry Pi (and camera). Then computer vision was used to read the dice which were used to determine the success/failure/damage of a given roll while adding the dice values to an internal entropy accumulator. A trapdoor then opened to return the dice to the player. By the end of the game, 1024 bits of entropy had been collected and the SD card used in the Pi was burned until destruction.
 
-__Ethereum Address:__ `0xf51d203536ea8b5bfbc06b3a1c21514766b22bb1`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xf51d203536ea8b5bfbc06b3a1c21514766b22bb1`|
+|Start Time:            |2023-04-15 00:00:00 UTC|
+|End Time:              |2023-04-15 04:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[Justin's Write up](http://web.archive.org/web/20230504180930/https://hackmd.io/axUX8pFUQD-yCiBzQEDrYQ?view)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/robocopsgonemad/status/1647022574595895301)|
 
 __Powers of Tau Pubkeys:__
 
@@ -268,13 +354,19 @@ __Powers of Tau Pubkeys:__
 ![Gaming table with tower in the background](./img/sc_11_kzgamer_tabletop.jpg)
 ![Burning the SD Card](./img/sc_11_kzgamer_sd_burn.png)
 
-__Tweet by contributor:__ [https://twitter.com/robocopsgonemad/status/1647022574595895301](https://twitter.com/robocopsgonemad/status/1647022574595895301)
-
-## Catropy
+## 12 - Catropy
 
 [Proof of Cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) or Catropy is a project to collect entropy from cats playing with a ball. This was done by embedding a custom PCB with an [ESP-32 microcontroller](http://web.archive.org/web/20230415171816/https://www.espressif.com/en/products/socs/esp32-c3) and an [MPU-6500 6-axis IMU](http://web.archive.org/web/20230307183944/https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6500/) into a knitted ball and handing it to cat (or human). The ESP-32 would then collect data from the accelerometers and gyroscopes, hash it into an entropy accumulator and serve that entropy over WiFi to the server performing the PoT calculations. Visit [proofof.cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) for details on the multiple contributions, hardware, software, a [video](https://www.youtube.com/watch?v=Nqg8KdmP-_g) of the contribution, and how this project went further to support cat shelters.
 
-__Ethereum Address:__ `0xdb08c59302e8449fb5f2f6ccf7dde974e678a31f`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xdb08c59302e8449fb5f2f6ccf7dde974e678a31f`|
+|Start Time:            |2023-04-15 08:00:00 UTC|
+|End Time:              |2023-04-15 12:00:00 UTC|
+|Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
+|BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
+|Write Up               |[proofof.cat website](http://web.archive.org/web/20230501054531/https://proofof.cat/)|
+|Tweet by contributor:  |  [Twitter](https://twitter.com/0x_Ytocin/status/1647291053429456903)|
 
 __Powers of Tau Pubkeys:__
 
@@ -288,13 +380,18 @@ __Powers of Tau Pubkeys:__
 ![Catropy PCB](./img/sc_12_catropy_device.jpeg)
 ![Proof of Proof of Cat](./img/sc_12_catropy_contribution.png)
 
-__Tweet by contributor:__ [https://twitter.com/0x_Ytocin/status/1647291053429456903](https://twitter.com/0x_Ytocin/status/1647291053429456903)
-
-## `srsly` - an iOS KZG Ceremony client
+## 13 - `srsly` - an iOS KZG Ceremony client
 
 `srsly` is a KZG Ceremony client (and BLS library!) for iOS written in Swift by @srikrishnamurthy. The library is available on GitHub [vishady721/swift-kzg-ios-client](https://github.com/vishady721/swift-kzg-ios-client).
 
-__Ethereum Address:__ `0xdf369cde73ce4d75deba0d9a6f67873ea9350b9b`
+|                       |                                            |
+|-----------------------|--------------------------------------------|
+|Ethereum Address:      |`0xdf369cde73ce4d75deba0d9a6f67873ea9350b9b`|
+|Start Time:            |2023-04-16 20:00:00 UTC|
+|End Time:              |2023-04-17 00:00:00 UTC|
+|Client Implementation: |[swift-kzg-ios-client](https://github.com/vishady721/swift-kzg-ios-client)|
+|BLS Library:           |[custom BLS library](https://github.com/vishady721/swift-kzg-ios-client)|
+|Write Up               |[Witnesses Published on GitHub](https://github.com/vishady721/swift-kzg-ios-client#contribution-receipt)|
 
 __Powers of Tau Pubkeys:__
 
