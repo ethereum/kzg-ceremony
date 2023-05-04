@@ -1,10 +1,27 @@
 # KZG Ceremony Special Contributions
 
+## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [00 - Cryptosat](#00---cryptosat)
+- [01 - The KZG Marble Machine](#01---the-kzg-marble-machine)
+- [02 - Mr. Moloch's Ephemeral Album II](#02---mr-molochs-ephemeral-album-ii)
+- [03 - Dog Dinner Dance Dynamics](#03---dog-dinner-dance-dynamics)
+- [04 - `CZG-Keremony` - a pure JS KZG ceremony client](#04---czg-keremony---a-pure-js-kzg-ceremony-client)
+- [05 - Improvised Theatre](#05---improvised-theatre)
+- [06 - A Calculating Car](#06---a-calculating-car)
+- [07 - A noisy city](#07---a-noisy-city)
+- [08 - Exothermic Entropy](#08---exothermic-entropy)
+- [09 - The Sferic Project](#09---the-sferic-project)
+- [10 - The Great Belgian Beer Entropy Caper](#10---the-great-belgian-beer-entropy-caper)
+- [11 - KZGamer - summoning Dankshard with a dice-tower](#11---kzgamer---summoning-dankshard-with-a-dice-tower)
+- [12 - Catropy](#12---catropy)
+- [13 - `srsly` - an iOS KZG Ceremony client](#13---srsly---an-ios-kzg-ceremony-client)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## 00 - Cryptosat
 
 The Cryptosat team kicked off the Special Contribution period with a contribution from space aboard their Crypto 2 satellite. Read about what they did and how on [their blog](http://web.archive.org/web/20230415055203/https://docs.cryptosat.io/cryptosat/cryptosat/contribution-to-the-ethereum-kzg-ceremony).
-
-### Details
 
 |                       |                                            |
 |-----------------------|--------------------------------------------|
@@ -41,8 +58,6 @@ __Additional Links:__
 
 The KZG Marble Machine is an artwork\contraption with different sections of track showing off different phases of Ethereum's history. The machine uses 23 sensors to measure small fluctuations in each marble's run as well as various environmental factors to ensure the randomness is unbiased. Read [`xofee.eth`'s writeup here](http://web.archive.org/web/20230415205327/https://medium.com/@Xofee3/the-kzg-marble-machine-my-special-contribution-to-ethereums-kzg-ceremony-d137313443a1) or even [3D print your own machine](github.com/XofEE/KZG-Marble-machine).
 
-### Details
-
 |                       |                                            |
 |-----------------------|--------------------------------------------|
 |Ethereum Address:      |`0xFF141bFc450c57Ad84eBaFbD09ffa94A268a7aaE` (`xofee.eth`)|
@@ -71,8 +86,6 @@ __Additional Links:__
 ## 02 - Mr. Moloch's Ephemeral Album II
 
 `smartcontracts.eth` brought 40 members of the New York Ethereum community together to make an album together over the course of a day. The result was a an ephemeral album: attendees got to listen to the music while it was recorded by 3 second-hand computers which then used these recordings as entropy to contribute to the ceremony before they were destroyed.
-
-### Details
 
 |                       |                                            |
 |-----------------------|--------------------------------------------|
@@ -115,8 +128,6 @@ __Powers of Tau Pubkeys:__
 ## 03 - Dog Dinner Dance Dynamics
 
 @saint-rat fed their dog, Charlie, biscuits which they had scatted over the floor. They then used [a python script](https://github.com/saint-rat/KZG-Ceremony-Contribution-Code) and computer vision to track the location of Charlie and the biscuits as he ate them. This information was folded into the entropy contribution before destroying the SD card and flash-drive used by the Raspberry Pi for the contribution. [Read the details here.](http://web.archive.org/web/20230416141630/https://medium.com/@saint-rat/dog-dinner-dance-dynamics-a-peculiar-path-to-enhancing-entropy-in-the-kzg-ceremony-86a0b2a4eaf0)
-
-### Details
 
 |                       |                                            |
 |-----------------------|--------------------------------------------|
