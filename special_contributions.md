@@ -3,20 +3,22 @@
 ## Table of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-- [00 - Cryptosat](#00---cryptosat)
-- [01 - The KZG Marble Machine](#01---the-kzg-marble-machine)
-- [02 - Mr. Moloch's Ephemeral Album II](#02---mr-molochs-ephemeral-album-ii)
-- [03 - Dog Dinner Dance Dynamics](#03---dog-dinner-dance-dynamics)
-- [04 - `CZG-Keremony` - a pure JS KZG ceremony client](#04---czg-keremony---a-pure-js-kzg-ceremony-client)
-- [05 - Improvised Theatre](#05---improvised-theatre)
-- [06 - A Calculating Car](#06---a-calculating-car)
-- [07 - A noisy city](#07---a-noisy-city)
-- [08 - Exothermic Entropy](#08---exothermic-entropy)
-- [09 - The Sferic Project](#09---the-sferic-project)
-- [10 - The Great Belgian Beer Entropy Caper](#10---the-great-belgian-beer-entropy-caper)
-- [11 - KZGamer - summoning Dankshard with a dice-tower](#11---kzgamer---summoning-dankshard-with-a-dice-tower)
-- [12 - Catropy](#12---catropy)
-- [13 - `srsly` - an iOS KZG Ceremony client](#13---srsly---an-ios-kzg-ceremony-client)
+- [KZG Ceremony Special Contributions](#kzg-ceremony-special-contributions)
+  - [Table of Contents](#table-of-contents)
+  - [00 - Cryptosat](#00---cryptosat)
+  - [01 - The KZG Marble Machine](#01---the-kzg-marble-machine)
+  - [02 - Mr. Moloch's Ephemeral Album II](#02---mr-molochs-ephemeral-album-ii)
+  - [03 - Dog Dinner Dance Dynamics](#03---dog-dinner-dance-dynamics)
+  - [04 - `CZG-Keremony` - a pure JS KZG ceremony client](#04---czg-keremony---a-pure-js-kzg-ceremony-client)
+  - [05 - Improvised Theatre](#05---improvised-theatre)
+  - [06 - A Calculating Car](#06---a-calculating-car)
+  - [07 - A noisy city](#07---a-noisy-city)
+  - [08 - Exothermic Entropy](#08---exothermic-entropy)
+  - [09 - The Sferic Project](#09---the-sferic-project)
+  - [10 - The Great Belgian Beer Entropy Caper](#10---the-great-belgian-beer-entropy-caper)
+  - [11 - KZGamer - summoning Dankshard with a dice-tower](#11---kzgamer---summoning-dankshard-with-a-dice-tower)
+  - [12 - Catropy](#12---catropy)
+  - [13 - `srsly` - an iOS KZG Ceremony client](#13---srsly---an-ios-kzg-ceremony-client)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## 00 - Cryptosat
@@ -362,6 +364,7 @@ __Powers of Tau Pubkeys:__
 2^15: 0xa64a105c21f2d9cff3799ef38203ae6da23b12be6949ab8dd136244de4af918b6bdb4d69537af464c3b3a156f89655720b827a331ad71d3a43ce9420b7b81be6e81b69009824de01b618ea65d2512da82215d75c99fbe9e010df5c51279416e6
 ```
 
+![The dice tower in all its beauty](./img/sc_11_kzgamer_tower.jpg)
 ![Gaming table with tower in the background](./img/sc_11_kzgamer_tabletop.jpg)
 ![Burning the SD Card](./img/sc_11_kzgamer_sd_burn.png)
 
