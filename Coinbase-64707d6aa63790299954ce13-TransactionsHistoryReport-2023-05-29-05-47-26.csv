@@ -1,0 +1,10 @@
+"You can use this transaction report to inform your likely tax obligations. For US customers, Sells, Converts, Rewards Income, Learning Rewards, and Donations are taxable events. For final tax obligations, please consult your tax advisor."
+
+
+
+Transactions
+User,mojebcshit@seznam.cz,64707d67a63790299954ce08
+
+Timestamp,Transaction Type,Asset,Quantity Transacted,Spot Price Currency,Spot Price at Transaction,Subtotal,Total (inclusive of fees and/or spread),Fees and/or Spread,Notes
+2023-05-28T05:59:12Z,Receive,GRT,0.03386639,CZK,2.65,"","","",Received 0.03386639 GRT from Jiří  Zacha
+2023-05-28T12:19:17Z,Send,GRT,0.03386639,CZK,2.65,"","","",Sent 0.03386639 GRT to Jiří  Zacha
