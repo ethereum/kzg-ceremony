@@ -239,6 +239,8 @@ ___BLS Signatures:__
 2^15: 0x85906813236394b76273829318c84552aa93e134d58757c6329ef3231918444f32a3da1d1422248c486e7d151af9599b
 ```
 
+![Self Driving Car dash view](./img/sc_06_selfdrivingcar_dashview.png)
+
 ## 07 - A noisy city
 
 Jordin Coppard recorded the noise of Sydney from a balcony and used the raw data stream as an entropy source.
