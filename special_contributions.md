@@ -87,21 +87,29 @@ __Additional Links:__
 
 ## 02 - Mr. Moloch's Ephemeral Album II
 
-`smartcontracts.eth` brought 40 members of the New York Ethereum community together to make an album together over the course of a day. The result was a an ephemeral album: attendees got to listen to the music while it was recorded by 3 second-hand computers which then used these recordings as entropy to contribute to the ceremony before they were destroyed.
+`smartcontracts.eth` brought 40 members of the New York Ethereum community together to make an album together over the course of a day. The result was a an ephemeral album: attendees got to listen to the music while it was recorded by 4 air-gapped laptops running USB-hosted Tails using their onboard microphones. [Kelvin's write-up here](https://kelvinfichter.com/pages/thoughts/moloch/).
 
 |                       |                                            |
 |-----------------------|--------------------------------------------|
-|Ethereum Address 1:    |`0x4cdc4f412355f296c2cf261210cc9274404e442b`|
-|Ethereum Address 2:    |`0x68108902de3a5031197a6eb3b74b3b033e8e8e4d`|
-|Ethereum Address 3:    |`0x3a953298098cadcb621a40c1efcfb7dd73b727af`|
+|Ethereum Address 1:    |`0x3795a5115626d4ada732efbfd51d70d4b30832ff`|
+|Ethereum Address 2:    |`0x4cdc4f412355f296c2cf261210cc9274404e442b`|
+|Ethereum Address 3:    |`0x68108902de3a5031197a6eb3b74b3b033e8e8e4d`|
+|Ethereum Address 4:    |`0x3a953298098cadcb621a40c1efcfb7dd73b727af`|
 |Start Time:            |2023-04-08 20:00:00 UTC|
 |End Time:              |2023-04-09 04:00:00 UTC|
 |Client Implementation: |[go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client)|
 |BLS Library:           |  [gnark-crypto](https://github.com/ConsenSys/gnark-crypto)|
-|Write Up               |TBD |
+|Write Up               | [Blog post on Kelvin Fichter's website](https://kelvinfichter.com/pages/thoughts/moloch/) |
 |Tweet by contributor:  |  [Twitter](https://twitter.com/trent_vanepps/status/1645532615137693703)|
 
 __Powers of Tau Pubkeys:__
+
+```text
+2^12: 0x882529906e627202a0d0d4c46da1fe41a605c300ae79474354251686de6a204ec3ed248534243f479c04e14321e45b6819bff99ed6591d8cce562f760a943c65b1cb33766c486fd7b48bd3cf5be0a8c4f8c7e9700cb0ffa84074466edaeaa37e
+2^13: 0xa8c9e7187942b8afdb7bf780bf1aa2fa271ae2df62a7d4811ff6b24fc18261f66261ba565a49abaf2f6d79f55e5ab24005f8c426587b478f447dc00a7b9b9db74ce3023b8d14a9b682b7c39fe27b93d939e7c4e992f66692812bb3c56eb5def5
+2^14: 0x8eba68dc820ffb0d66f8bc58c30b6614981b09c43172e73f56be1810859a9d5b19d7a5c312d89bbff3d3557b961584a113390bea2b5e2dbf02dd182fc22fa6d8fa25409e1a17dc47c96eebea94afbe7afcecafd70133fdc40bd727b9397ec136
+2^15: 0xb17708a0804ba5b7108a67dfeffd54e09a387118cec5e8f99e47071aa97d70c29bdedce93201b84aadee4e0fe74948340947aacfaa543e61c6f7ee297e9d92183e1d2f9b916e6414f8e605fc391845029012ba4ed823ec6bc7935006e5aa43d3
+```
 
 ```text
 2^12: 0xa7759b45d54e451b9e1b8c75f6989ddedc5883faf758cf24c164f28f18a9c28a3bf5cc9c6d373be2179ee3799e84226c0844e387756997ef9f17b3a31aefc128a58b387cdd5f9769c7a44cc617473c649fd6898e76c1fe6a9dbfc9c558f2830a
