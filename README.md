@@ -67,6 +67,33 @@ There are a number of independent implementations interested Ceremony participan
 | [matterlabs/EIP1962](https://github.com/matter-labs/eip1962) | Rust | Apache 2.0 | |
 | [noble-curves](https://github.com/paulmillr/noble-curves) | TypeScript/JS | MIT | |
 
+## Special Contributions
+
+April 1-16 2023 was the Special Contribution Period for the KZG Ceremony. This allowed participants to contribute in ways that may not have been possible in the Open Contribution period. For example, needing more time than the typical slot or a uniqe method of generating entropy that included a larger group.
+
+While the Ceremony only needs a single honest participant to provide a secure output, Special Contributions provide additional assurances beyond a standard entropy contribution.
+
+- contributions involving large groups of people are harder to fake than those with only one person
+- differentiated methods of generating entropy (eg. measuring an explosion) prevents the Ceremony output being compromised by some failure in the regular entropy generation (eg. the hosted interface)
+- computing over the entropy in an isolated environment (eg. on an airgapped machine, wiping and physically destroying hardware) means it's unlikely for a malicious entity to have extracted the entropy at any point
+- detailed documentation (explore links below) attached to real reputations are unlikely to all have been coopted or faked by a malicious coordinating entity
+
+Explore the Special Contributions below:
+
+- [00 - Cryptosat](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#00---cryptosat)
+- [01 - The KZG Marble Machine](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#01---the-kzg-marble-machine)
+- [02 - Mr. Moloch's Ephemeral Album II](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#02---mr-molochs-ephemeral-album-ii)
+- [03 - Dog Dinner Dance Dynamics](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#03---dog-dinner-dance-dynamics)
+- [04 - CZG-Keremony - a pure JS KZG ceremony client](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#04---czg-keremony---a-pure-js-kzg-ceremony-client)
+- [05 - Improvised Theatre](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#05---improvised-theatre)
+- [06 - A Calculating Car](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#06---a-calculating-car)
+- [07 - A noisy city](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#07---a-noisy-city)
+- [08 - Exothermic Entropy](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#08---exothermic-entropy)
+- [09 - The Sferic Project](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#09---the-sferic-project)
+- [10 - The Great Belgian Beer Entropy Caper](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#10---the-great-belgian-beer-entropy-caper)
+- [11 - KZGamer - summoning Dankshard with a dice-tower](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#11---kzgamer---summoning-dankshard-with-a-dice-tower)
+- [12 - Catropy](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#12---catropy)
+- [13 - srsly - an iOS KZG Ceremony client](https://github.com/ethereum/kzg-ceremony/blob/main/special_contributions.md#13---srsly---an-ios-kzg-ceremony-client)
 
 ## Media
 
