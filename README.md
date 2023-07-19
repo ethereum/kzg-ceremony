@@ -71,12 +71,17 @@ There are a number of independent implementations interested Ceremony participan
 
 April 1-16 2023 was the Special Contribution Period for the KZG Ceremony. This allowed participants to contribute in ways that may not have been possible in the Open Contribution period. For example, needing more time than the typical slot or a uniqe method of generating entropy that included a larger group.
 
-While the Ceremony only needs a single honest participant to provide a secure output, Special Contributions provide additional assurances beyond a standard entropy contribution.
+While the Ceremony only needs a single honest participant to provide a secure output, Special Contributions provide additional assurances beyond a standard entropy contribution:
 
-- contributions involving large groups of people are harder to fake than those with only one person
-- differentiated methods of generating entropy (eg. measuring an explosion) prevents the Ceremony output being compromised by some failure in the regular entropy generation (eg. the hosted interface)
 - computing over the entropy in an isolated environment (eg. on an airgapped machine, wiping and physically destroying hardware) means it's unlikely for a malicious entity to have extracted the entropy at any point
-- detailed documentation (explore links below) attached to real reputations are unlikely to all have been coopted or faked by a malicious coordinating entity
+- detailed documentation (explore links below) attached to real reputations are unlikely to all have been coopted or faked by a malicious coordinating entity. The records are available for future observers to explore.
+- different hardware and software limits correlated risk
+- differentiated entropy generation (eg. measuring an explosion) prevents the Ceremony output being compromised by some failure in the regular entropy generation (eg. the hosted interface)
+- contributions involving large groups of people are harder to fake than those with only one person
+
+- documents & by community members, so helps convince people in the future
+- different hardware and software
+- different entropy sources
 
 Explore the Special Contributions below:
 
