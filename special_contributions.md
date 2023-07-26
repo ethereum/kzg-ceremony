@@ -5,23 +5,23 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 - [KZG Ceremony Special Contributions](#kzg-ceremony-special-contributions)
   - [Table of Contents](#table-of-contents)
-  - [00 - Cryptosat](#00---cryptosat)
-  - [01 - The KZG Marble Machine](#01---the-kzg-marble-machine)
-  - [02 - Mr. Moloch's Ephemeral Album II](#02---mr-molochs-ephemeral-album-ii)
-  - [03 - Dog Dinner Dance Dynamics](#03---dog-dinner-dance-dynamics)
-  - [04 - `CZG-Keremony` - a pure JS KZG ceremony client](#04---czg-keremony---a-pure-js-kzg-ceremony-client)
-  - [05 - Improvised Theatre](#05---improvised-theatre)
-  - [06 - A Calculating Car](#06---a-calculating-car)
-  - [07 - A noisy city](#07---a-noisy-city)
-  - [08 - Exothermic Entropy](#08---exothermic-entropy)
-  - [09 - The Sferic Project](#09---the-sferic-project)
-  - [10 - The Great Belgian Beer Entropy Caper](#10---the-great-belgian-beer-entropy-caper)
-  - [11 - KZGamer - summoning Dankshard with a dice-tower](#11---kzgamer---summoning-dankshard-with-a-dice-tower)
-  - [12 - Catropy](#12---catropy)
-  - [13 - `srsly` - an iOS KZG Ceremony client](#13---srsly---an-ios-kzg-ceremony-client)
+  - [01 - Cryptosat](#00---cryptosat)
+  - [02 - The KZG Marble Machine](#01---the-kzg-marble-machine)
+  - [03 - Mr. Moloch's Ephemeral Album II](#02---mr-molochs-ephemeral-album-ii)
+  - [04 - Dog Dinner Dance Dynamics](#03---dog-dinner-dance-dynamics)
+  - [05 - `CZG-Keremony` - a pure JS KZG ceremony client](#04---czg-keremony---a-pure-js-kzg-ceremony-client)
+  - [06 - Improvised Theatre](#05---improvised-theatre)
+  - [07 - A Calculating Car](#06---a-calculating-car)
+  - [08 - A noisy city](#07---a-noisy-city)
+  - [09 - Exothermic Entropy](#08---exothermic-entropy)
+  - [10 - The Sferic Project](#09---the-sferic-project)
+  - [11 - The Great Belgian Beer Entropy Caper](#10---the-great-belgian-beer-entropy-caper)
+  - [12 - KZGamer - summoning Dankshard with a dice-tower](#11---kzgamer---summoning-dankshard-with-a-dice-tower)
+  - [13 - Catropy](#12---catropy)
+  - [14 - `srsly` - an iOS KZG Ceremony client](#13---srsly---an-ios-kzg-ceremony-client)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-## 00 - Cryptosat
+## 01 - Cryptosat
 
 The Cryptosat team kicked off the Special Contribution period with a contribution from space aboard their Crypto 2 satellite. Read about what they did and how on [their blog](http://web.archive.org/web/20230415055203/https://docs.cryptosat.io/cryptosat/cryptosat/contribution-to-the-ethereum-kzg-ceremony).
 
@@ -56,7 +56,7 @@ __Additional Links:__
 
 ![Cryptosat](./img/sc_00_cryptosat.png)
 
-## 01 - The KZG Marble Machine
+## 02 - The KZG Marble Machine
 
 The KZG Marble Machine is an artwork\contraption with different sections of track showing off different phases of Ethereum's history. The machine uses 23 sensors to measure small fluctuations in each marble's run as well as various environmental factors to ensure the randomness is unbiased. Read [`xofee.eth`'s writeup here](http://web.archive.org/web/20230415205327/https://medium.com/@Xofee3/the-kzg-marble-machine-my-special-contribution-to-ethereums-kzg-ceremony-d137313443a1) or even [3D print your own machine](github.com/XofEE/KZG-Marble-machine).
 
@@ -85,7 +85,7 @@ __Additional Links:__
 
 - [Marble Machine Youtube Video](http://youtu.be/zKrcUxOeBF4)
 
-## 02 - Mr. Moloch's Ephemeral Album II
+## 03 - Mr. Moloch's Ephemeral Album II
 
 `smartcontracts.eth` brought 40 members of the New York Ethereum community together to make an album together over the course of a day. The result was a an ephemeral album: attendees got to listen to the music while it was recorded by 4 air-gapped laptops running USB-hosted Tails using their onboard microphones. [Kelvin's write-up here](https://kelvinfichter.com/pages/thoughts/moloch/).
 
@@ -135,7 +135,7 @@ __Powers of Tau Pubkeys:__
 ![Album creation](./img/sc_02_ephemeral_create.jpg)
 ![Hardware destruction](./img/sc_02_ephemeral_destroy.jpg)
 
-## 03 - Dog Dinner Dance Dynamics
+## 04 - Dog Dinner Dance Dynamics
 
 @saint-rat fed their dog, Charlie, biscuits which they had scatted over the floor. They then used [a python script](https://github.com/saint-rat/KZG-Ceremony-Contribution-Code) and computer vision to track the location of Charlie and the biscuits as he ate them. This information was folded into the entropy contribution before destroying the SD card and flash-drive used by the Raspberry Pi for the contribution. [Read the details here.](http://web.archive.org/web/20230416141630/https://medium.com/@saint-rat/dog-dinner-dance-dynamics-a-peculiar-path-to-enhancing-entropy-in-the-kzg-ceremony-86a0b2a4eaf0)
 
@@ -165,7 +165,7 @@ __Additional Links:__
 
 - [Video of hardware destruction](https://twitter.com/i/status/1647601259724275713)
 
-## 04 - `CZG-Keremony` - a pure JS KZG ceremony client
+## 05 - `CZG-Keremony` - a pure JS KZG ceremony client
 
 [`CZG-Keremony` is a KZG ceremony client](https://github.com/dsrvlabs/czg-keremony) written entirely in JavaScript by the [DSRV Labs](https://www.dsrvlabs.com/) team. Under the hood, it uses @paulmillr's [https://github.com/paulmillr/noble-curves](noble-curves BLS implementation), so this is an end-to-end contribution done in pure JS. `rootwarp.eth` and @kim201212 performed an airgapped contribution on a RaspberryPi 2 before destroying the SD card.
 
@@ -191,7 +191,7 @@ __Powers of Tau Pubkeys:__
 
 ![CZG-Keremony](./img/sc_04_dsrv.jpg)
 
-## 05 - Improvised Theatre
+## 06 - Improvised Theatre
 
 Members of the Student Theatre Association in Eindhoven, [Doppio](https://doppio.nl/), recorded an imporv theater performance as a source of entropy for the ceremony. The performance comprised of both acting and singing using the structure of a soap-opera and a "revolving door" to guide the performance. Read more about what they did on their [blog post](http://web.archive.org/web/20230502173054/https://github.com/ThomasdenH/ethereum-kzg-ceremony-documentation).
 
@@ -216,7 +216,7 @@ __Powers of Tau Pubkeys:__
 
 ![Improv Theatre](./img/sc_05_improv.jpg)
 
-## 06 - A Calculating Car
+## 07 - A Calculating Car
 
 [Stephen Solis](http://web.archive.org/web/20220805222403/https://stephensol.is/) drove around in a car equipped with a [Comma 3](http://web.archive.org/web/20230418103833/https://comma.ai/) self-driving module. He then recorded the data from the car's ODB port to an NVMe drive which was destroyed after using the data as an entropy source.
 
@@ -249,7 +249,7 @@ ___BLS Signatures:__
 
 ![Self Driving Car dash view](./img/sc_06_selfdrivingcar_dashview.png)
 
-## 07 - A noisy city
+## 08 - A noisy city
 
 Jordin Coppard recorded the noise of Sydney from a balcony and used the raw data stream as an entropy source.
 
@@ -274,7 +274,7 @@ __Powers of Tau Pubkeys:__
 
 ![Sydney can be a loud place](./img/sc_07_noisy_city.jpg)
 
-## 08 - Exothermic Entropy
+## 09 - Exothermic Entropy
 
 The [Mach34 Team](http://web.archive.org/web/20220910211520/https://mach34.space/) detonated 4 pounds of a binary explosive called Tannerite and used a [RaspberryShake](http://web.archive.org/web/20230410210102/https://raspberryshake.org/) to record the seismic activity as entropy. Afterwards, they destroyed the storage media with a rifle. Read about their escapades [here](http://web.archive.org/web/20230502181323/https://medium.com/@outsideranalytics/exothermic-entropy-884997e28024).
 
@@ -299,7 +299,7 @@ __Powers of Tau Pubkeys:__
 
 ![Boom](./img/sc_08_rifle.png)
 
-## 09 - The Sferic Project
+## 10 - The Sferic Project
 
 Digital artist, [Matt DesLauriers](http://web.archive.org/web/20230417162857/https://www.mattdesl.com/) sampled the Very Low Frequency radio (300 Hz and 13 kHz) radio spectrum on southern coast of the United Kingdom to capture lightning strikes and other atmospheric noise collectively known as _sferics_. This data was then fed into the ceremony as a source of randomness.
 
@@ -325,7 +325,7 @@ __Powers of Tau Pubkeys:__
 ![Measuring atmospheric noise](./img/sc_09_spherics_sampling.jpg)
 ![Contributing spheric entropy](./img/sc_09_spherics_computer.jpg)
 
-## 10 - The Great Belgian Beer Entropy Caper
+## 11 - The Great Belgian Beer Entropy Caper
 
 `heeckhau.eth` and `sponnet.eth` contributed entropy by video-recording the pouring and fizzing of Belgian beers using a webcam and an [AVADO i5 box](http://web.archive.org/web/20230411100207/https://ava.do/) before destroying the USB flash drive used for live-booting Ubuntu with a hammer.
 
@@ -351,7 +351,7 @@ __Powers of Tau Pubkeys:__
 ![Recording the bubbles](./img/sc_10_beer_recording.jpg)
 ![Contributing spheric entropy](./img/sc_10_beer_usb_destruction.png)
 
-## 11 - KZGamer - summoning Dankshard with a dice-tower
+## 12 - KZGamer - summoning Dankshard with a dice-tower
 
 Justin Florentine built a dice tower that could both collect entropy for the ceremony and help determine the outcomes of his table-top games. The dice tower was a sealed box which rolled the dice before collecting them in a sealed chamber in which they were photographed by a Raspberry Pi (and camera). Then computer vision was used to read the dice which were used to determine the success/failure/damage of a given roll while adding the dice values to an internal entropy accumulator. A trapdoor then opened to return the dice to the player. By the end of the game, 1024 bits of entropy had been collected and the SD card used in the Pi was burned until destruction.
 
@@ -378,7 +378,7 @@ __Powers of Tau Pubkeys:__
 ![Gaming table with tower in the background](./img/sc_11_kzgamer_tabletop.jpg)
 ![Burning the SD Card](./img/sc_11_kzgamer_sd_burn.png)
 
-## 12 - Catropy
+## 13 - Catropy
 
 [Proof of Cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) or Catropy is a project to collect entropy from cats playing with a ball. This was done by embedding a custom PCB with an [ESP-32 microcontroller](http://web.archive.org/web/20230415171816/https://www.espressif.com/en/products/socs/esp32-c3) and an [MPU-6500 6-axis IMU](http://web.archive.org/web/20230307183944/https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6500/) into a knitted ball and handing it to cat (or human). The ESP-32 would then collect data from the accelerometers and gyroscopes, hash it into an entropy accumulator and serve that entropy over WiFi to the server performing the PoT calculations. Visit [proofof.cat](http://web.archive.org/web/20230501054531/https://proofof.cat/) for details on the multiple contributions, hardware, software, a [video](https://www.youtube.com/watch?v=Nqg8KdmP-_g) of the contribution, and how this project went further to support cat shelters.
 
@@ -404,7 +404,7 @@ __Powers of Tau Pubkeys:__
 ![Catropy PCB](./img/sc_12_catropy_device.jpeg)
 ![Proof of Proof of Cat](./img/sc_12_catropy_contribution.png)
 
-## 13 - `srsly` - an iOS KZG Ceremony client
+## 14 - `srsly` - an iOS KZG Ceremony client
 
 `srsly` is a KZG Ceremony client (and BLS library!) for iOS written in Swift by @srikrishnamurthy. The library is available on GitHub [vishady721/swift-kzg-ios-client](https://github.com/vishady721/swift-kzg-ios-client).
 
