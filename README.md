@@ -41,6 +41,7 @@ There are a number of independent implementations interested Ceremony participan
 | [cpp-kzg-ceremony-client](https://github.com/PatriceVignola/cpp-kzg-ceremony-client)| blst | C++ | AGPL-3.0 | Patrice Vignola (@PatriceVignola) | Features: BLS/ECDSA signing, transcript verification, Linux/Windows/MacOS support |
 | [czg-keremony](https://github.com/dsrvlabs/czg-keremony)| noble-curves | JavaScript | MIT | JoonKyo Kim (@rootwarp),  HyungGi Kim (@kim201212) |  |
 | [kzg-ceremony-client](https://github.com/NethermindEth/kzg-ceremony-client)| blst | C# | MIT | Alexey (@flcl42), CheeChyuan (@chee-chyuan), Michal (@mpzajac), Jorge (@jmederosalvarado), Prince (@prix0007) | |
+| [kzg-ceremony-halo2](https://github.com/hyperoracle/kzg_ceremony_halo2)| zkcrypto ([lanbones](https://github.com/lanbones/bls12_381)) | Rust | MIT | Blake (skipjack8) | Features: generate zero-knowledge proofs for contribution |
 
 ### Browser Interfaces
 
